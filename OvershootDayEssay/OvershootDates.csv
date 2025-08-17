@@ -1,0 +1,184 @@
+Country,Region,Income Group,Population (millions),Total Ecological Footprint (Consumption),Total biocapacity,Ecological Deficit or Reserve,Number of Earths required,"2024
+ Country Overshoot Day "
+Algeria,Africa,UM,45.4,2.2,0.7,-1.6,1.5,"September 4, 2024"
+Angola,Africa,LM,35,0.9,1.6,0.7,0.6,
+Benin,Africa,LI,12.8,1.1,0.6,-0.5,0.7,
+Botswana,Africa,UM,2.4,2.2,2.9,0.7,1.5,"September 5, 2024"
+Burkina Faso,Africa,LI,22.1,0.9,0.7,-0.2,0.6,
+Burundi,Africa,LI,12.6,0.6,0.4,-0.2,0.4,
+Cabo Verde,Africa,LM,0.6,1.2,0.4,-0.7,0.8,
+Cameroon,Africa,LM,27.9,1,1.4,0.4,0.7,
+Central African Republic,Africa,LI,5,1.1,6.4,5.3,0.7,
+Chad,Africa,LI,17.4,1.4,1.4,0.1,0.9,
+Comoros,Africa,LI,0.9,2,0.3,-1.7,1.3,"October 4, 2024"
+Congo,Africa,LM,5.8,1.1,7.8,6.7,0.7,
+"Congo, Democratic Republic of",Africa,LI,95.2,0.7,1.8,1.2,0.5,
+Côte d'Ivoire,Africa,LM,27.7,0.9,1.1,0.2,0.6,
+Djibouti,Africa,LM,1,2.5,0.6,-1.8,1.6,"August 12, 2024"
+Egypt,Africa,LM,106.2,1.5,0.3,-1.1,1,
+Equatorial Guinea,Africa,HI,1.5,1.8,2.7,0.8,1.2,"October 28, 2024"
+Eritrea,Africa,LI,3.7,0.7,1.9,1.2,0.5,
+Eswatini,Africa,LM,1.2,2.9,1.4,-1.5,1.9,"July 9, 2024"
+Ethiopia,Africa,LI,120.8,0.8,0.4,-0.4,0.6,
+Gabon,Africa,UM,2.3,2.1,16.9,14.9,1.4,"September 24, 2024"
+Gambia,Africa,LI,2.6,0.9,0.5,-0.4,0.6,
+Ghana,Africa,LM,32.4,1.8,0.9,-0.8,1.2,"November 10, 2024"
+Guinea,Africa,LI,13.9,1.5,1.7,0.2,1,"December 27, 2024"
+Guinea-Bissau,Africa,LI,2.1,1.2,2.2,1,0.8,
+Kenya,Africa,LI,56.2,0.9,0.5,-0.4,0.6,
+Lesotho,Africa,LM,2.2,1.2,0.7,-0.4,0.8,
+Liberia,Africa,LI,5.3,1.2,2.7,1.5,0.8,
+Madagascar,Africa,LI,29.2,0.8,2,1.2,0.5,
+Malawi,Africa,LI,20.2,0.7,0.6,-0.1,0.5,
+Mali,Africa,LI,21.5,1,1.4,0.4,0.7,
+Mauritania,Africa,LM,4.9,2.3,3.7,1.4,1.5,"September 1, 2024"
+Mauritius,Africa,UM,1.3,2.6,0.7,-1.9,1.7,"July 30, 2024"
+Morocco,Africa,LM,37.8,1.5,0.6,-1,1,"December 22, 2024"
+Mozambique,Africa,LI,33.1,0.8,1.4,0.6,0.5,
+Namibia,Africa,UM,2.6,2.4,6.1,3.7,1.6,"August 19, 2024"
+Niger,Africa,LI,26.1,1.4,1.1,-0.3,0.9,
+Nigeria,Africa,LM,216.7,0.8,0.4,-0.4,0.5,
+Réunion,Africa,,0.9,3.5,0.1,-3.4,2.3,"June 6, 2024"
+Rwanda,Africa,LI,13.6,0.6,0.2,-0.3,0.4,
+Sao Tome and Principe,Africa,LM,0.2,1.1,0.7,-0.4,0.7,
+Senegal,Africa,LM,17.7,1.2,1,-0.2,0.8,
+Sierra Leone,Africa,LI,8.3,1,0.9,-0.1,0.7,
+Somalia,Africa,LI,16.8,0.9,0.7,-0.2,0.6,
+South Africa,Africa,UM,60.8,3.2,1.3,-1.9,2.1,"June 20, 2024"
+South Sudan,Africa,LM,11.6,1.7,1.8,0.1,1.1,"November 26, 2024"
+Sudan,Africa,LM,46,1.1,1.1,0,0.8,
+"Tanzania, United Republic of",Africa,LI,63.3,0.9,0.8,-0.1,0.6,
+Togo,Africa,LI,8.7,0.9,0.6,-0.3,0.6,
+Tunisia,Africa,UM,12,1.4,0.7,-0.6,0.9,
+Uganda,Africa,LI,48.4,1,0.5,-0.5,0.6,
+Zambia,Africa,LM,19.5,1.2,1.7,0.4,0.8,
+Zimbabwe,Africa,LI,15.3,1.1,0.6,-0.5,0.7,
+Australia,Asia-Pacific,HI,26.1,5.8,11,5.2,3.8,"April 5, 2024"
+Bangladesh,Asia-Pacific,LI,167.9,0.7,0.2,-0.4,0.4,
+Bhutan,Asia-Pacific,LM,0.8,4.7,4.9,0.2,3.1,"April 26, 2024"
+Brunei Darussalam,Asia-Pacific,HI,0.4,7.9,2.6,-5.3,5.2,"March 10, 2024"
+Cambodia,Asia-Pacific,LI,17.2,1.3,1,-0.3,0.9,
+China,Asia-Pacific,UM,"1,480.60",3.6,0.8,-2.8,2.4,"June 1, 2024"
+Fiji,Asia-Pacific,UM,0.9,2.8,2.7,-0.1,1.9,"July 14, 2024"
+French Polynesia,Asia-Pacific,HI,0.3,3.7,1.1,-2.6,2.5,"May 28, 2024"
+India,Asia-Pacific,LM,"1,406.60",1,0.3,-0.7,0.7,
+Indonesia,Asia-Pacific,LM,279.1,1.7,1.2,-0.5,1.1,"November 24, 2024"
+Japan,Asia-Pacific,HI,125.6,4,0.6,-3.4,2.7,"May 16, 2024"
+"Korea, Democratic People's Republic of",Asia-Pacific,LI,26,1.2,0.5,-0.7,0.8,
+"Korea, Republic of",Asia-Pacific,HI,51.3,5.8,0.6,-5.2,3.9,"April 4, 2024"
+Lao People's Democratic Republic,Asia-Pacific,LM,7.5,1.9,1.6,-0.2,1.2,"October 23, 2024"
+Malaysia,Asia-Pacific,UM,33.2,4.2,2.1,-2.2,2.8,"May 9, 2024"
+Mongolia,Asia-Pacific,LM,3.4,7.7,13.5,5.8,5.1,"March 12, 2024"
+Myanmar,Asia-Pacific,LI,55.2,1.1,1.4,0.2,0.7,
+Nepal,Asia-Pacific,LI,30.2,0.9,0.4,-0.5,0.6,
+New Zealand,Asia-Pacific,HI,4.9,5.4,8.4,3,3.6,"April 11, 2024"
+Pakistan,Asia-Pacific,LM,229.5,0.7,0.4,-0.4,0.5,
+Papua New Guinea,Asia-Pacific,LM,9.3,1.2,2.9,1.7,0.8,
+Philippines,Asia-Pacific,LM,112.5,1.2,0.4,-0.8,0.8,
+Samoa,Asia-Pacific,LM,0.2,2.5,1.7,-0.8,1.6,"August 9, 2024"
+Singapore,Asia-Pacific,HI,5.9,5.7,0.1,-5.6,3.8,"April 6, 2024"
+Solomon Islands,Asia-Pacific,LI,0.7,1.7,3.3,1.7,1.1,"November 27, 2024"
+Thailand,Asia-Pacific,UM,70.1,2.3,1.1,-1.2,1.6,"August 23, 2024"
+Timor-Leste,Asia-Pacific,LM,1.4,0.6,1.6,1,0.4,
+Tonga,Asia-Pacific,LM,0.1,3.1,1.3,-1.8,2,"June 27, 2024"
+Vanuatu,Asia-Pacific,LM,0.3,1.8,1.8,0,1.2,"October 28, 2024"
+Viet Nam,Asia-Pacific,LM,99,2.4,0.8,-1.6,1.6,"August 14, 2024"
+Antigua and Barbuda,Central America/Caribbean,HI,0.1,2.9,0.9,-2,1.9,"July 6, 2024"
+Barbados,Central America/Caribbean,HI,0.3,3.3,0.3,-3.1,2.2,"June 15, 2024"
+Belize,Central America/Caribbean,UM,0.4,7.5,3.3,-4.2,5,"March 14, 2024"
+Costa Rica,Central America/Caribbean,UM,5.2,2.6,1.6,-1,1.7,"July 31, 2024"
+Cuba,Central America/Caribbean,UM,11.3,1.9,1.1,-0.8,1.3,"October 14, 2024"
+Dominica,Central America/Caribbean,UM,0.1,2.7,1,-1.7,1.8,"July 24, 2024"
+Dominican Republic,Central America/Caribbean,UM,11.1,1.8,0.7,-1.1,1.2,"November 1, 2024"
+El Salvador,Central America/Caribbean,LM,6.6,2,0.6,-1.3,1.3,"October 9, 2024"
+Grenada,Central America/Caribbean,UM,0.1,1.8,1.6,-0.2,1.2,"November 6, 2024"
+Guadeloupe,Central America/Caribbean,,0.4,3.4,0.6,-2.9,2.3,"June 10, 2024"
+Guatemala,Central America/Caribbean,LM,18.6,1.9,1,-0.9,1.3,"October 18, 2024"
+Haiti,Central America/Caribbean,LI,11.7,0.6,0.2,-0.4,0.4,
+Honduras,Central America/Caribbean,LM,10.2,1.3,1.7,0.3,0.9,
+Jamaica,Central America/Caribbean,UM,3,1.7,0.6,-1.2,1.2,"November 12, 2024"
+Martinique,Central America/Caribbean,,0.4,3.5,0.5,-3,2.3,"June 6, 2024"
+Nicaragua,Central America/Caribbean,LM,6.8,1.5,2.3,0.8,1,
+Panama,Central America/Caribbean,UM,4.4,2.3,2.6,0.3,1.5,"August 25, 2024"
+Saint Lucia,Central America/Caribbean,UM,0.2,1.7,0.4,-1.3,1.1,"November 18, 2024"
+Saint Vincent and Grenadines,Central America/Caribbean,UM,0.1,1.8,1.2,-0.7,1.2,"October 30, 2024"
+Trinidad and Tobago,Central America/Caribbean,HI,1.4,5.4,1.4,-4,3.6,"April 12, 2024"
+Austria,EU-27,HI,9.1,5.6,2.9,-2.7,3.7,"April 7, 2024"
+Belgium,EU-27,HI,11.7,6.7,1.2,-5.5,4.4,"March 23, 2024"
+Bulgaria,EU-27,UM,6.8,3.6,3.1,-0.5,2.4,"June 2, 2024"
+Cyprus,EU-27,HI,1.2,3.2,0.4,-2.8,2.1,"June 21, 2024"
+Czech Republic,EU-27,HI,10.7,5.1,2.5,-2.6,3.4,"April 18, 2024"
+Denmark,EU-27,HI,5.8,7.3,4.2,-3.1,4.8,"March 16, 2024"
+Estonia,EU-27,HI,1.3,8.1,9.8,1.7,5.4,"March 8, 2024"
+Finland,EU-27,HI,5.6,5.4,11.8,6.4,3.6,"April 12, 2024"
+France,EU-27,HI,65.6,4.3,2.5,-1.9,2.9,"May 7, 2024"
+Germany,EU-27,HI,83.9,4.5,1.6,-2.9,3,"May 2, 2024"
+Greece,EU-27,HI,10.3,3.8,1.6,-2.2,2.5,"May 25, 2024"
+Hungary,EU-27,HI,9.6,3.8,2.6,-1.2,2.5,"May 25, 2024"
+Ireland,EU-27,HI,5,4.5,3.1,-1.4,3,"May 2, 2024"
+Italy,EU-27,HI,60.3,4,1,-3,2.6,"May 19, 2024"
+Latvia,EU-27,HI,1.8,7.7,9.9,2.2,5.1,"March 12, 2024"
+Lithuania,EU-27,UM,2.7,6.4,6,-0.5,4.3,"March 26, 2024"
+Luxembourg,EU-27,HI,0.6,11,1.2,-9.7,7.3,"February 20, 2024"
+Malta,EU-27,HI,0.4,3.7,0.5,-3.3,2.5,"May 28, 2024"
+Netherlands,EU-27,HI,17.2,6,1.1,-4.9,4,"April 1, 2024"
+Poland,EU-27,HI,37.7,4.6,2,-2.6,3.1,"April 28, 2024"
+Portugal,EU-27,HI,10.1,3.7,1.5,-2.2,2.5,"May 28, 2024"
+Romania,EU-27,UM,19,2.7,2.5,-0.3,1.8,"July 20, 2024"
+Slovakia,EU-27,HI,5.5,4.2,2.7,-1.5,2.8,"May 12, 2024"
+Slovenia,EU-27,HI,2.1,4.8,2.5,-2.3,3.2,"April 25, 2024"
+Spain,EU-27,HI,46.7,3.9,1.7,-2.2,2.6,"May 20, 2024"
+Sweden,EU-27,HI,10.2,4.9,8.5,3.6,3.3,"April 21, 2024"
+Afghanistan,Middle East/Central Asia,LI,40.8,0.8,0.5,-0.3,0.5,
+Armenia,Middle East/Central Asia,LM,3,2.3,0.8,-1.5,1.5,"August 24, 2024"
+Azerbaijan,Middle East/Central Asia,UM,10.3,2.4,0.9,-1.4,1.6,"August 21, 2024"
+Bahrain,Middle East/Central Asia,HI,1.8,8.2,0.6,-7.6,5.4,"March 8, 2024"
+Georgia,Middle East/Central Asia,LM,4,2.7,1.4,-1.3,1.8,"July 26, 2024"
+"Iran, Islamic Republic of",Middle East/Central Asia,UM,86,3.2,0.8,-2.5,2.2,"June 18, 2024"
+Iraq,Middle East/Central Asia,LM,42.2,1.7,0.3,-1.4,1.1,"November 15, 2024"
+Israel,Middle East/Central Asia,HI,8.9,4.2,0.2,-3.9,2.8,"May 12, 2024"
+Jordan,Middle East/Central Asia,UM,10.3,1.3,0.2,-1.1,0.9,
+Kazakhstan,Middle East/Central Asia,UM,19.2,4.3,3.8,-0.5,2.8,"May 8, 2024"
+Kuwait,Middle East/Central Asia,HI,4.4,8.6,0.8,-7.7,5.7,"March 5, 2024"
+Kyrgyzstan,Middle East/Central Asia,LI,6.7,1.5,1.3,-0.3,1,"December 30, 2024"
+Lebanon,Middle East/Central Asia,UM,6.7,3.1,0.3,-2.8,2.1,"June 24, 2024"
+Oman,Middle East/Central Asia,HI,5.3,7.3,1.8,-5.5,4.8,"March 16, 2024"
+Qatar,Middle East/Central Asia,HI,3,13.1,1,-12.1,8.7,"February 11, 2024"
+Saudi Arabia,Middle East/Central Asia,HI,35.8,5.7,0.7,-5,3.8,"April 5, 2024"
+Syrian Arab Republic,Middle East/Central Asia,LM,19.4,1,0.6,-0.4,0.7,
+Tajikistan,Middle East/Central Asia,LI,10,1.1,0.4,-0.6,0.7,
+Turkiye,Middle East/Central Asia,UM,85.6,3.4,1.5,-1.9,2.2,"June 11, 2024"
+Turkmenistan,Middle East/Central Asia,LM,6.2,3.9,2.2,-1.7,2.6,"May 22, 2024"
+United Arab Emirates,Middle East/Central Asia,HI,10.1,8.7,0.5,-8.2,5.8,"March 4, 2024"
+Uzbekistan,Middle East/Central Asia,LM,34.4,2.1,0.7,-1.4,1.4,"September 18, 2024"
+Yemen,Middle East/Central Asia,LM,31.2,0.6,0.3,-0.3,0.4,
+Bermuda,North America,HI,0.1,,,,,
+Canada,North America,HI,38.4,7.4,14.2,6.8,4.9,"March 15, 2024"
+Mexico,North America,UM,131.6,2.3,1.2,-1.1,1.5,"August 29, 2024"
+United States of America,North America,HI,334.8,7.5,3.7,-3.7,4.9,"March 14, 2024"
+Albania,Other Europe,UM,2.9,2.1,1.2,-0.9,1.4,"September 23, 2024"
+Belarus,Other Europe,UM,9.4,4.6,3.7,-0.9,3,"April 30, 2024"
+Bosnia and Herzegovina,Other Europe,UM,3.2,4.3,2.2,-2.1,2.8,"May 9, 2024"
+Croatia,Other Europe,HI,4.1,3.7,2.6,-1.1,2.5,"May 28, 2024"
+Montenegro,Other Europe,UM,0.6,3.7,2.8,-0.8,2.4,"May 30, 2024"
+Norway,Other Europe,HI,5.5,5.4,6.7,1.3,3.6,"April 12, 2024"
+Republic of Moldova,Other Europe,LM,4,1.5,1,-0.5,1,"December 28, 2024"
+Republic of North Macedonia,Other Europe,UM,2.1,2.8,1.6,-1.3,1.9,"July 14, 2024"
+Russian Federation,Other Europe,UM,145.8,5.8,7.7,1.9,3.8,"April 5, 2024"
+Serbia,Other Europe,UM,8.7,3.8,2.1,-1.8,2.5,"May 23, 2024"
+Switzerland,Other Europe,HI,8.8,3.7,1.1,-2.6,2.5,"May 27, 2024"
+Ukraine,Other Europe,LM,43.2,2,3.1,1.1,1.3,"September 30, 2024"
+United Kingdom,Other Europe,HI,68.5,3.6,1,-2.5,2.4,"June 3, 2024"
+Argentina,South America,UM,46,3.2,5.2,2,2.1,"June 20, 2024"
+Bolivia,South America,LM,12,2.8,13.2,10.5,1.8,"July 17, 2024"
+Brazil,South America,UM,215.4,2.6,8.2,5.6,1.7,"August 4, 2024"
+Chile,South America,UM,19.3,3.8,3.2,-0.6,2.5,"May 23, 2024"
+Colombia,South America,UM,51.5,2,3.6,1.6,1.3,"October 5, 2024"
+Ecuador,South America,UM,18.1,1.7,1.9,0.2,1.1,"November 24, 2024"
+French Guiana,South America,,0.3,1.5,85.6,84.1,1,"December 22, 2024"
+Guyana,South America,LM,0.8,3.3,70.5,67.2,2.2,"June 15, 2024"
+Paraguay,South America,LM,7.3,3.2,9.6,6.5,2.1,"June 23, 2024"
+Peru,South America,UM,33.7,2.2,3.5,1.3,1.5,"September 3, 2024"
+Suriname,South America,UM,0.6,3.1,74.8,71.7,2.1,"June 24, 2024"
+Uruguay,South America,UM,3.5,2.2,9.6,7.4,1.4,"September 11, 2024"
+"Venezuela, Bolivarian Republic of",South America,UM,29.3,2.1,2.9,0.8,1.4,"September 18, 2024"
