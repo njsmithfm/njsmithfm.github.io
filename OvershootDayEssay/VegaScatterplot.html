@@ -1,0 +1,77 @@
+<script>
+  import data from overshootData.js
+</script>
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vega Scatter Plot</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vega/5.22.1/vega.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vega-lite/5.6.0/vega-lite.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vega-embed/6.21.0/vega-embed.min.js"></script>
+  </head>
+  <body>
+    <div id="vis"></div>
+
+    <script>
+      const spec = {
+        $schema: "https://vega.github.io/schema/vega-lite/v5.json",
+        description:
+          "A bubble chart showing 2024 Overshoot Dates Country by Country",
+        width: 600,
+        height: 400,
+        data: {
+          url: "OvershootDates.csv",
+          format: { type: "csv" },
+        },
+        mark: {
+          type: "circle",
+          opacity: 0.7,
+          stroke: "white",
+          strokeWidth: 1,
+        },
+        encoding: {
+          x: {
+            field: "x",
+            type: "quantitative",
+            title: "2024 Earth Overshoot Date",
+          },
+          y: {
+            field: "y",
+            type: "quantitative",
+            title: "Country Ecological Deficit or Reserve",
+          },
+          size: {
+            field: "size",
+            type: "quantitative",
+            title: "Bubble Size",
+            scale: { range: [100, 1000] },
+          },
+          color: {
+            field: "category",
+            type: "nominal",
+            title: "Category",
+            scale: { scheme: "category10" },
+          },
+          tooltip: [
+            { field: "x", type: "quantitative" },
+            { field: "y", type: "quantitative" },
+            { field: "size", type: "quantitative" },
+            { field: "category", type: "nominal" },
+          ],
+        },
+        title: {
+          text: "Sample Bubble Chart",
+          fontSize: 16,
+          anchor: "start",
+        },
+      };
+
+      vegaEmbed("#vis", spec, {
+        actions: false, // Hide the action menu (save, view source, etc.)
+        renderer: "svg", // Use SVG for better quality
+      });
+    </script>
+  </body>
+</html>
