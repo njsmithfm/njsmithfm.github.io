@@ -1,3 +1,21 @@
+/* fonts & site theme & responsivity */
+
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Public Sans", Arial, Helvetica, sans-serif !important;
+}
+
+html {
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding-top: 100px;
+}
+
 /* main content */
 main {
   width: 100%;
