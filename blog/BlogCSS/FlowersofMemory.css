@@ -18,8 +18,7 @@
 
 /* Shared sidebar styling */
 .sidebar {
-  padding: 1rem;
-  overflow-y: auto; /* scroll if content grows */
+  padding: 5rem;
 }
 
 /* Sticky positioning – stays visible while scrolling */
@@ -30,9 +29,15 @@
   align-self: start; /* keep at the top of the grid cell */
 }
 
+.right nav ul li a {
+  display: flex;
+  justify-content: right;
+}
+
 /* Main content area */
 h2 {
   font-size: 2rem;
+  padding-top: 3rem;
 }
 
 .content {

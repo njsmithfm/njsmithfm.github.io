@@ -15,13 +15,11 @@
       <!-- Left sidebar -->
       <aside class="sidebar left">
         <a href="https://njsmithfm.github.io/">
-          <h1 class="title">NJ Smith</h1></a
+          <h1 class="title">Flowers of Memory</h1></a
         >
       </aside>
 
       <main class="content">
-        <h2>Flowers of Memory</h2>
-
         <!-- ==== Feed rows start -- limit to 7 items on homepage? ==== -->
         <section class="feed">
           <a href="#" target="_self"
@@ -148,9 +146,10 @@
         <nav class="nav">
           <ul>
             <li><a href="FlowersofMemory">Home</a></li>
-            <li><a href="About">About</a></li>
-            <li><a href="Contact">Contact</a></li>
             <li><a href="Archive">Archive</a></li>
+
+            <li><a href="About">NJ Smith</a></li>
+            <li><a href="Contact">Contact</a></li>
           </ul>
         </nav>
       </aside>
