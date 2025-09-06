@@ -20,16 +20,16 @@
       </aside>
 
       <main class="content">
-        <h2>Hi!</h2>
+        <h2>Greetings!</h2>
 
         <p>
-            <div style=" display: inline-block; margin-top: 4rem; font-weight: 800;" class="first-sentence">I'm an information designer and data journalist</div> currently living in Brooklyn, NY. <br/>
-            I'm originally from Minnesota, where I got my start studying writing, then editorial design and segued into technology and got started in data science.
+            <div style="display: inline-block; width: 50%;"><div style="display:inline-block; margin-top: 4rem; font-size: 1.15rem; font-weight: 800;" class="first-sentence">I'm NJ, an information designer and data journalist,</div><br/> currently living in Brooklyn, NY. 
+            Originally I hail from the frozen upper midwest, where I got my start in writing, then studied editorial design and segued into multimedia storytelling, creative technology, and data science. I've worked as an editor and designer on several magazines and for academic research, and have a long history in grassroots community organizations and with education and cultural nonprofits. 
             <br/>
             <br/>
-            My comfort zone: Writing and editing, Python, GitHub, Figma, Affinity creative suite, TouchDesigner <br/>
-            What I'm enjoying learning right now: D3.js, Svelte, Cables.gl
-        </p>
+            My comfort zone: writing and editing, Python, SQL, web development, GitHub, Figma, WordPress, the Affinity suite, TouchDesigner <br/>
+            What I'm glad to be learning right now: Blender, D3.js, Svelte, Cables.gl
+        </div><img src="img/AboutPhoto.jpg" alt="NJ in front of Bimhuis in Amsterdam" style="float:right; max-height: 100%; max-width: 350px;"> </p>
 
 
       </main>

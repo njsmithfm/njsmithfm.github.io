@@ -17,6 +17,11 @@
         <a href="https://njsmithfm.github.io/">
           <h1 class="title">NJ Smith</h1></a
         >
+        <div>
+          <p style="font-size: 0.85rem; font-style: italic; margin-top: 1rem">
+            Information Designer<br />& Data Journalist
+          </p>
+        </div>
       </aside>
 
       <main class="content">
@@ -79,6 +84,27 @@
               <div class="info">
                 <h3 class="title">International Anthem Recording Company</h3>
                 <blockquote>Journalism, Music Photography</blockquote>
+              </div>
+            </article>
+          </a>
+
+          <a
+            href="https://maydaymagazine.com/this-body-i-have-tried-to-write-by-janet-danielo/"
+            target="_blank"
+          >
+            <article class="feed-item">
+              <img
+                src="img/ThisBodyIHaveTriedToWrite.png"
+                alt="This Body I Have Tried To Write chapbook cover"
+                class="thumb"
+              />
+              <div class="info">
+                <h3 class="title">
+                  This Body I Have Tried To Write Chapbook Design
+                </h3>
+                <blockquote>
+                  WordPress, Digital Publishing, Web Design
+                </blockquote>
               </div>
             </article>
           </a>
