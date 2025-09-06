@@ -7,7 +7,68 @@
     <meta name="keywords" content="NJ Smith, information designer, portfolio" />
     <meta name="author" content="NJ Smith" />
     <link rel="icon" href="img/favicon.png" type="image/x-icon" />
-    <link rel="stylesheet" href="blog/blog.css" />
+    <link rel="stylesheet" href="blog.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
+  <body>
+    <div class="wrapper">
+      <!-- Left sidebar -->
+      <aside class="sidebar left">
+        <h1 class="title">NJ Smith</h1>
+      </aside>
+
+      <main class="content">
+        <h2>Flowers of Memory</h2>
+
+        <!-- ==== Feed rows start ==== -->
+        <section class="feed">
+          <article class="feed-item">
+            <img
+              src="thumbnails/6sept2025_SweetestChill.jpg"
+              alt="Debbie Harry"
+              class="thumb"
+            />
+            <div class="info">
+              <h3 class="title">Sweetest Chill</h3>
+              <time datetime="2025-08-15" class="date">5 September 2025</time>
+            </div>
+          </article>
+
+          <article class="feed-item">
+            <img
+              src="thumbnails/6sept2025_HighArt.png"
+              alt="Koko The Clown"
+              class="thumb"
+            />
+            <div class="info">
+              <h3 class="title">Highbrow</h3>
+              <time datetime="2025-08-14" class="date">6 September 2026</time>
+            </div>
+          </article>
+
+          <article class="feed-item">
+            <img src="thumb3.jpg" alt="Thumbnail 3" class="thumb" />
+            <div class="info">
+              <h3 class="title">Third article title</h3>
+              <time datetime="2025-08-13" class="date">13 August 2025</time>
+            </div>
+          </article>
+
+          <!-- Add more <article class="feed-item"> blocks as needed -->
+        </section>
+        <!-- ==== Feed rows end ==== -->
+      </main>
+
+      <!-- Right sidebar -->
+      <aside class="sidebar right">
+        <nav class="nav">
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Archive</a></li>
+          </ul>
+        </nav>
+      </aside>
+    </div>
+  </body>
 </html>
