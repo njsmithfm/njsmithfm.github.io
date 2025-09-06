@@ -53,13 +53,13 @@
 
 .nav a {
   text-decoration: none;
-  color: #333;
+  color: #000000;
   font-weight: 500;
 }
 
 /* Simple hover effect */
 .nav a:hover {
-  color: #0066cc;
+  color: rgb(255, 0, 212);
 }
 /* ---------- Feed container ---------- */
 .feed {
@@ -69,20 +69,23 @@
   gap: 1rem; /* vertical space between rows */
 }
 
+a {
+  text-decoration: none;
+}
+
 /* ---------- Individual row ---------- */
 .feed-item {
+  width: 100%;
   display: flex;
   align-items: flex-start; /* align thumbnail and text at the top */
-  background: #fafafa;
-  border: 1px solid #e0e0e0;
-  border-radius: 6px;
   overflow: hidden; /* clip rounded corners */
 }
 
 /* Thumbnail */
 .thumb {
-  width: 120px; /* fixed width – adjust as you like */
-  height: 80px; /* fixed height – keeps rows uniform */
+  /* thumbs should all be 1:1 aspect ratio */
+  width: 150px; /* fixed width – adjust as you like */
+  height: 150px; /* fixed height – keeps rows uniform */
   object-fit: cover; /* crop without distortion */
 }
 
@@ -96,7 +99,10 @@
 .title {
   margin: 0;
   font-size: 1.1rem;
-  color: #222;
+  color: #000000;
+}
+.title:hover {
+  color: rgb(255, 0, 212);
 }
 
 /* Timestamp */
@@ -109,7 +115,7 @@
 
 /* Optional hover effect for each row */
 .feed-item:hover {
-  background: #f0f8ff;
+  background: rgba(255, 0, 212, 0.075);
 }
 /* -------------------------------------------------
    Responsive tweak – collapse sidebars on narrow screens
