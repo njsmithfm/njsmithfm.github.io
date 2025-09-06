@@ -3,6 +3,7 @@
 /* Reset a few defaults */
 * {
   font-family: "Public Sans", Arial, Helvetica, sans-serif;
+  font-weight: 400;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -17,7 +18,6 @@
 
 /* Shared sidebar styling */
 .sidebar {
-  /* background: #f4f4f4; */
   padding: 1rem;
   overflow-y: auto; /* scroll if content grows */
 }
@@ -30,13 +30,11 @@
   align-self: start; /* keep at the top of the grid cell */
 }
 
-/* Left sidebar specifics */
-.title {
-  font-size: 1.5rem;
-  margin-bottom: 2rem; /* space below the title */
+/* Main content area */
+h2 {
+  font-size: 2rem;
 }
 
-/* Main content area */
 .content {
   padding: 2rem;
   background: #fff;
@@ -44,6 +42,8 @@
 
 /* Right sidebar navigation */
 .nav ul {
+  font-size: 1.5rem;
+  font-weight: 300;
   list-style: none;
 }
 
@@ -63,7 +63,7 @@
 }
 /* ---------- Feed container ---------- */
 .feed {
-  margin-top: 2rem; /* space from the heading above */
+  margin-top: 6rem; /* space from the heading above */
   display: flex;
   flex-direction: column;
   gap: 1rem; /* vertical space between rows */
@@ -83,6 +83,7 @@ a {
 
 /* Thumbnail */
 .thumb {
+  border-radius: 3px;
   /* thumbs should all be 1:1 aspect ratio */
   width: 150px; /* fixed width – adjust as you like */
   height: 150px; /* fixed height – keeps rows uniform */
@@ -98,9 +99,10 @@ a {
 /* Title */
 .title {
   margin: 0;
-  font-size: 1.1rem;
+  font-size: 1.75rem;
   color: #000000;
 }
+
 .title:hover {
   color: rgb(255, 0, 212);
 }
@@ -108,15 +110,26 @@ a {
 /* Timestamp */
 .date {
   display: block;
-  margin-top: 0.35rem;
-  font-size: 0.85rem;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+  font-weight: 500;
   color: #666;
+}
+
+blockquote {
+  /* Keep to 200 characters? */
+  color: #666;
+  font-style: italic;
+  margin-left: 0.5rem;
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
 }
 
 /* Optional hover effect for each row */
 .feed-item:hover {
   background: rgba(255, 0, 212, 0.075);
 }
+
 /* -------------------------------------------------
    Responsive tweak – collapse sidebars on narrow screens
    ------------------------------------------------- */

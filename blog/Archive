@@ -34,33 +34,108 @@
               <div class="info">
                 <h3 class="title">Sweetest Chill</h3>
                 <time datetime="2025-08-15" class="date">5 September 2025</time>
+                <blockquote>Blondie went ska!</blockquote>
               </div>
-            </article></a
-          >
+            </article>
+          </a>
 
-          <article class="feed-item">
-            <img
-              src="thumbnails/6sept2025_HighArt.png"
-              alt="Koko The Clown"
-              class="thumb"
-            />
-            <div class="info">
-              <h3 class="title">On Being Highbrow</h3>
-              <time datetime="2025-08-14" class="date">6 September 2026</time>
-            </div>
-          </article>
+          <a href="#" target="_self">
+            <article class="feed-item">
+              <img
+                src="thumbnails/6sept2025_HighArt.png"
+                alt="Koko The Clown"
+                class="thumb"
+              />
+              <div class="info">
+                <h3 class="title">On Being Highbrow</h3>
+                <time datetime="2025-08-14" class="date">6 September 2025</time>
+                <blockquote>
+                  "I am going to kill you in butter and white wine."
+                </blockquote>
+              </div>
+            </article>
+          </a>
 
-          <article class="feed-item">
-            <img
-              src="thumbnails/6sept2025_Skinner.png"
-              alt="Principal Skinner brooding in his office"
-              class="thumb"
-            />
-            <div class="info">
-              <h3 class="title">Winters of Discontent</h3>
-              <time datetime="2025-08-13" class="date">13 August 2025</time>
-            </div>
-          </article>
+          <a href="#" target="_self">
+            <article class="feed-item">
+              <img
+                src="thumbnails/6sept2025_Lorelai.png"
+                alt="Lorelai Gilmore"
+                class="thumb"
+              />
+              <div class="info">
+                <h3 class="title">All My Best Friends Are Metalheads</h3>
+                <time datetime="2025-08-14" class="date">6 September 2025</time>
+                <blockquote>
+                  You're one in a crowd and you're paranoid of every sound
+                </blockquote>
+              </div>
+            </article>
+          </a>
+
+          <a href="#" target="_self">
+            <article class="feed-item">
+              <img
+                src="thumbnails/6sept2025_Strangelove.png"
+                alt="Dr. Strangelove screenshot"
+                class="thumb"
+              />
+              <div class="info">
+                <h3 class="title">Strangelove</h3>
+                <time datetime="2025-08-14" class="date">6 September 2025</time>
+                <blockquote>
+                  "You're gonna have to answer to the Coca-Cola company."
+                </blockquote>
+              </div>
+            </article>
+          </a>
+
+          <a href="#" target="_self">
+            <article class="feed-item">
+              <img
+                src="thumbnails/6sept2025_Skinner.png"
+                alt="Principal Skinner brooding in his office"
+                class="thumb"
+              />
+              <div class="info">
+                <h3 class="title">Winters of Discontent</h3>
+                <time datetime="2025-08-13" class="date">13 August 2025</time>
+                <blockquote>I'm all out of bubblegum.</blockquote>
+              </div>
+            </article>
+          </a>
+
+          <a href="#" target="_self">
+            <article class="feed-item">
+              <img
+                src="thumbnails/6sept2025_DataBard.png"
+                alt="Data from TNG dressed as Shakespeare"
+                class="thumb"
+              />
+              <div class="info">
+                <h3 class="title">Data of High Composure</h3>
+                <time datetime="2025-08-13" class="date">13 August 2025</time>
+                <blockquote>Poise! Poise!</blockquote>
+              </div>
+            </article>
+          </a>
+
+          <a href="#" target="_self">
+            <article class="feed-item">
+              <img
+                src="thumbnails/6sept2025_Koch.png"
+                alt="Kenneth Koch getting arrested at the March on Washington"
+                class="thumb"
+              />
+              <div class="info">
+                <h3 class="title">Such Is Life, Cowboy</h3>
+                <time datetime="2025-08-13" class="date">13 August 2025</time>
+                <blockquote>
+                  Jail is as fun as you make it. (I have heard)
+                </blockquote>
+              </div>
+            </article>
+          </a>
 
           <!-- Add more <article class="feed-item"> blocks as needed -->
         </section>
