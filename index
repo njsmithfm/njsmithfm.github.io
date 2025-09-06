@@ -11,8 +11,8 @@
     <meta name="author" content="NJ Smith" />
     <link rel="icon" href="img/favicon.png" type="image/x-icon" />
     <link rel="stylesheet" href="CSS/main.css" />
-    <link rel="stylesheet" href="CSS/navigation.css" />
     <link rel="stylesheet" href="CSS/responsivity.css" />
+    <link rel="stylesheet" href="CSS/navigation.css" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
@@ -32,11 +32,10 @@
       </header>
       <nav>
         <div class="nav_links">
-          <a href="#">About</a>
+          <a href="#">About Me</a>
           <a href="#">Interactives</a>
           <a href="#">Multimedia</a>
-          <a href="#">Blog</a>
-          <a href="#">Contact</a>
+          <a href="blog/FlowersofMemory">Blog</a>
         </div>
         <div>
           <a
@@ -68,59 +67,7 @@
       <div class="content-container">
         <div style="margin-top: 20px; font-style: italic">
           This site is a work in progress. Stand by!
-
-          <div>
-            <div class="border thumb">
-              <img
-                class="thumb"
-                src="img/CrashMapDashboard.png"
-                alt="Heatmap display of NYC"
-              />
-            </div>
-          </div>
-
-
-        <div>
-          <div class="thumb border">
-            <img
-              class="thumb"
-              src="img/DatawrapperChoropleth.png"
-              alt="Datawrapper Sustainability Choropleth"
-            />
-          </div>
         </div>
-
-        <div>
-          <div class="thumb border">
-            <img
-              class="thumb"
-              src="img/Datawrapper-ADA-Subway.png"
-              alt="Scatterplot of ADA-accessible MTA station availability"
-            />
-          </div>
-        </div>
-
-        <div>
-          <div class="thumb border">
-            <img
-              class="thumb"
-              src="img/RaspberryPi.png"
-              alt="Raspberry Pi computer"
-            />
-          </div>
-        </div>
-
-        <div>
-          <div class="thumb border">
-            <img
-              class="center"
-              src="img/DanielVillarreal.png"
-              alt="Daniel Villarreal live at Public Records"
-            />
-          </div>
-        </div>
-
-        <!-- </div>
         <div class="hero-container">
           <img
             class="hero"
@@ -196,7 +143,7 @@
               </div>
             </div>
           </div>
-        </section> -->
+        </section>
       </div>
     </main>
   </body>
