@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("public-sans/public-sans-v1.003/otf");
 
 /* Reset and Base Styles */
 * {
@@ -15,7 +15,6 @@ html {
   scroll-behavior: smooth;
 }
 
-
 h2,
 h3,
 h4,
@@ -23,7 +22,6 @@ h5,
 h6 {
   font-family: "Public Sans", sans-serif !important;
 }
-
 
 /* Navigation */
 nav {
@@ -66,7 +64,14 @@ nav {
 }
 
 .gradient-text {
-  background: linear-gradient(45deg, #4caf50, #2196f3, #8bc34a, #00bcd4, #4caf50);
+  background: linear-gradient(
+    45deg,
+    #4caf50,
+    #2196f3,
+    #8bc34a,
+    #00bcd4,
+    #4caf50
+  );
   background-size: 400% 400%;
   -webkit-background-clip: text;
   background-clip: text;
@@ -75,7 +80,6 @@ nav {
 }
 
 @keyframes gradientAnimation {
-
   0%,
   100% {
     background-position: 0% 50%;
@@ -168,10 +172,8 @@ nav {
 
 /* Datawrapper specific sizing */
 #datawrapper-chart-r6tx9 {
-
   padding: 10px;
 }
-
 
 /* Sticky Scrolly Section */
 .scrolly-container {
@@ -253,7 +255,6 @@ nav {
   color: #4caf50;
   margin: 1rem 0;
 }
-
 
 /* Improved iframe responsiveness */
 .responsive-iframe {
@@ -351,7 +352,6 @@ nav {
     font-size: 4rem;
   }
 }
-
 
 img {
   display: flex;

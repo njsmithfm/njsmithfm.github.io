@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="blog of things" />
+    <title>Flowers of Memory</title>
+    <meta name="keywords" content="NJ Smith, information designer, portfolio" />
+    <meta name="author" content="NJ Smith" />
+    <link rel="icon" href="img/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="CSS/portfolio.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Left sidebar -->
+      <aside class="sidebar left">
+        <a href="https://njsmithfm.github.io/">
+          <h1 class="title">NJ Smith</h1></a
+        >
+      </aside>
+
+      <main class="content">
+        <h2>Hi!</h2>
+
+        <p>
+            <div style=" display: inline-block; margin-top: 4rem; font-weight: 800;" class="first-sentence">I'm an information designer and data journalist</div> currently living in Brooklyn, NY. <br/>
+            I'm originally from Minnesota, where I got my start studying writing, then editorial design and segued into technology and got started in data science.
+            <br/>
+            <br/>
+            My comfort zone: Writing and editing, Python, GitHub, Figma, Affinity creative suite, TouchDesigner <br/>
+            What I'm enjoying learning right now: D3.js, Svelte, Cables.gl
+        </p>
+
+
+      </main>
+
+
+
+
+      <!-- Right sidebar -->
+      <aside class="sidebar right">
+        <nav class="nav">
+          <ul>
+            <li><a href="https://njsmithfm.github.io/">Home</a></li>
+            <!-- <li><a href="#">Interactives</a></li>
+            <li><a href="#">Multimedia</a></li>
+            <li><a href="#">Editorial</a></li> -->
+            <br />
+            <li><a href="About">About Me</a></li>
+            <li>
+              <a
+                href="mailto:njsmith@newschool.edu?subject=Dear NJ we want to hire you"
+                >Contact</a
+              >
+            </li>
+            <li><a href="blog/FlowersofMemory">Blog</a></li>
+          </ul>
+        </nav>
+      </aside>
+    </div>
+  </body>
+</html>

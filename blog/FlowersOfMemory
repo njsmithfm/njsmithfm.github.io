@@ -64,9 +64,7 @@
               <div class="info">
                 <h3 class="title">All My Best Friends Are Metalheads</h3>
                 <time datetime="2025-08-14" class="date">6 September 2025</time>
-                <blockquote>
-                  You're one in a crowd and you're paranoid of every sound
-                </blockquote>
+                <blockquote>Paranoid of every sound</blockquote>
               </div>
             </article>
           </a>
@@ -81,9 +79,7 @@
               <div class="info">
                 <h3 class="title">Strangelove</h3>
                 <time datetime="2025-08-14" class="date">6 September 2025</time>
-                <blockquote>
-                  "You're gonna have to answer to the Coca-Cola company."
-                </blockquote>
+                <blockquote>A debt of honor</blockquote>
               </div>
             </article>
           </a>
@@ -129,7 +125,8 @@
                 <h3 class="title">Such Is Life, Cowboy</h3>
                 <time datetime="2025-08-13" class="date">13 August 2025</time>
                 <blockquote>
-                  Jail is as fun as you make it. (I have heard)
+                  Jail is as fun as you make it. <br />
+                  (I have heard)
                 </blockquote>
               </div>
             </article>

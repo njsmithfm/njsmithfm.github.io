@@ -1,6 +1,5 @@
 @import url("public-sans/public-sans-v1.003/otf");
 
-/* Reset a few defaults */
 * {
   font-family: "Public Sans", Arial, Helvetica, sans-serif;
   font-weight: 400;
@@ -89,9 +88,8 @@ a {
 /* Thumbnail */
 .thumb {
   border-radius: 3px;
-  /* thumbs should all be 1:1 aspect ratio */
-  width: 150px; /* fixed width – adjust as you like */
-  height: 150px; /* fixed height – keeps rows uniform */
+  width: 250px; /* fixed width – adjust as you like */
+  height: 200px; /* fixed height – keeps rows uniform */
   object-fit: cover; /* crop without distortion */
 }
 
@@ -112,15 +110,6 @@ a {
   color: rgb(255, 0, 212);
 }
 
-/* Timestamp */
-.date {
-  display: block;
-  margin-top: 1rem;
-  margin-left: 0.5rem;
-  font-weight: 500;
-  color: #666;
-}
-
 blockquote {
   /* Keep to 200 characters? */
   color: #666;
@@ -130,25 +119,50 @@ blockquote {
   margin-top: 0.5rem;
 }
 
-/* Optional hover effect for each row */
-.feed-item:hover {
-  background: rgba(255, 0, 212, 0.075);
-}
-
-/* -------------------------------------------------
-   Responsive tweak – collapse sidebars on narrow screens
-   ------------------------------------------------- */
+/* responsivity */
 @media (max-width: 800px) {
   .wrapper {
-    grid-template-columns: 1fr; /* single column */
+    grid-template-columns: 1fr;
   }
 
   .sidebar {
-    position: static; /* no longer sticky */
+    position: static;
     padding: 1rem 0;
   }
 
   .right {
-    order: 2; /* place navigation after main content */
+    order: 2;
+  }
+}
+
+/* gradient animation in title text */
+.sidebar a h1 {
+  font-size: 36px;
+  font-weight: 700;
+  text-decoration: none;
+  color: transparent;
+  background: linear-gradient(45deg, #e1a0ee, #2196f3, #8bc34a);
+  background-size: 400% 400%;
+  background-clip: text;
+  -webkit-background-clip: text;
+
+  animation: gradientAnimation 20s ease infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  25% {
+    background-position: 100% 50%;
+  }
+  50% {
+    background-position: 50% 100%;
+  }
+  75% {
+    background-position: 50% 0%;
+  }
+  100% {
+    background-position: 0% 50%;
   }
 }

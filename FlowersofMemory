@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="blog of things" />
+    <title>Flowers of Memory</title>
+    <meta name="keywords" content="NJ Smith, information designer, portfolio" />
+    <meta name="author" content="NJ Smith" />
+    <link rel="icon" href="img/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="CSS/portfolio.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Left sidebar -->
+      <aside class="sidebar left">
+        <a href="https://njsmithfm.github.io/">
+          <h1 class="title">NJ Smith</h1></a
+        >
+      </aside>
+
+      <main class="content">
+        <!-- ==== Feed rows start -- limit to 7 items on homepage? ==== -->
+        <section class="feed">
+          <a href="https://nycbikecrashes.pythonanywhere.com/" target="_blank"
+            ><article class="feed-item">
+              <img
+                src="img/CrashMapDashboard.png"
+                alt="Plasma Heatmap of NYC"
+                class="thumb"
+              />
+              <div class="info">
+                <h3 class="title">
+                  Mapping NYC Cyclist Injuries and Deaths with Python
+                </h3>
+                <blockquote>Data Visualization</blockquote>
+              </div>
+            </article>
+          </a>
+
+          <a href="EarthOvershoot" target="_blank">
+            <article class="feed-item">
+              <img
+                src="img/DatawrapperChoropleth.png"
+                alt="Datawrapper Sustainability Choropleth"
+                class="thumb"
+              />
+              <div class="info">
+                <h3 class="title">What Is Earth Overshoot Day?</h3>
+                <blockquote>Data Visualization, Web Development</blockquote>
+              </div>
+            </article>
+          </a>
+
+          <a href="MTA_ADA_Scatterplot" target="_blank">
+            <article class="feed-item">
+              <img
+                src="img/Datawrapper-ADA-Subway.png"
+                alt="Scatterplot of ADA-accessible MTA station availability"
+                class="thumb"
+              />
+              <div class="info">
+                <h3 class="title">NYC Subway Accessibility</h3>
+                <blockquote>Data Visualization</blockquote>
+              </div>
+            </article>
+          </a>
+
+          <a
+            href="https://publicseminar.org/2023/12/an-experimental-music-community-grows-in-brooklyn/"
+            target="_blank"
+          >
+            <article class="feed-item">
+              <img
+                src="img/DanielVillarreal.png"
+                alt="Daniel Villarreal live at Public Records"
+                class="thumb"
+              />
+              <div class="info">
+                <h3 class="title">International Anthem Recording Company</h3>
+                <blockquote>Journalism, Music Photography</blockquote>
+              </div>
+            </article>
+          </a>
+
+          <a
+            href="https://publicseminar.org/2022/11/freeing-time/"
+            target="_blank"
+          >
+            <article class="feed-item">
+              <img
+                src="img/FourThousandWeeks.png"
+                alt="Four Thousand Weeks Book Cover"
+                class="thumb"
+              />
+              <div class="info">
+                <h3 class="title">
+                  Oliver Burkeman Interview on <i>Four Thousand Weeks</i>
+                </h3>
+                <blockquote>Journalism, Book Review</blockquote>
+              </div>
+            </article>
+          </a>
+
+          <a href="#" target="_blank">
+            <article class="feed-item">
+              <img src="img/RaspberryPi.png" alt="RaspberryPi" class="thumb" />
+              <div class="info">
+                <h3 class="title">HAM Radio Indicator Dashboard</h3>
+                <blockquote>Data Visualization, Raspberry Pi</blockquote>
+              </div>
+            </article>
+          </a>
+          <!-- Add more <article class="feed-item"> blocks as needed -->
+        </section>
+
+        <!-- ==== Feed rows end ==== -->
+      </main>
+
+      <!-- Right sidebar -->
+      <aside class="sidebar right">
+        <nav class="nav">
+          <ul>
+            <!-- <li><a href="#">Interactives</a></li>
+            <li><a href="#">Multimedia</a></li>
+            <li><a href="#">Editorial</a></li> -->
+            <br />
+            <li><a href="About">About Me</a></li>
+            <li>
+              <a
+                href="mailto:njsmith@newschool.edu?subject=Dear NJ we want to hire you"
+                >Contact</a
+              >
+            </li>
+            <li><a href="blog/FlowersofMemory">Blog</a></li>
+          </ul>
+        </nav>
+      </aside>
+    </div>
+  </body>
+</html>
