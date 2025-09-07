@@ -2,8 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="blog of things" />
-    <title>Flowers of Memory</title>
+    <meta name="description" content="NJ Smith information design portfolio" />
+    <title>NJ Smith</title>
     <meta name="keywords" content="NJ Smith, information designer, portfolio" />
     <meta name="author" content="NJ Smith" />
     <link rel="icon" href="img/favicon.png" type="image/x-icon" />
@@ -57,7 +57,7 @@
             </article>
           </a>
 
-          <a href="MTA_ADA_Scatterplot" target="_blank">
+          <a href="https://www.datawrapper.de/_/SmHQc/" target="_blank">
             <article class="feed-item">
               <img
                 src="img/Datawrapper-ADA-Subway.png"
@@ -128,6 +128,25 @@
             </article>
           </a>
 
+         <a
+            href="https://maydaymagazine.com/"
+            target="_blank"
+          >
+            <article class="feed-item">
+              <img
+                src="img/MAYDAY.png"
+                alt="MAYDAY magazine logo"
+                class="thumb"
+              />
+              <div class="info">
+                <h3 class="title">
+                  MAYDAY Magazine</i>
+                </h3>
+                <blockquote>Editorial Design, Web Design, WordPress, Literary Publishing</blockquote>
+              </div>
+            </article>
+          </a>
+
           <a href="#" target="_blank">
             <article class="feed-item">
               <img src="img/RaspberryPi.png" alt="RaspberryPi" class="thumb" />
@@ -160,8 +179,27 @@
             </li>
             <li><a href="blog/FlowersofMemory">Blog</a></li>
           </ul>
+          
         </nav>
+      
+        </div><div class="nav_container">
+          <div class="footer_socials">
+            <a
+              href="mailto:njsmith@newschool.edu?subject=Dear NJ we want to hire you"
+              target="_blank">
+              <img src="icons/email.svg" alt="email CTA icon" />
+            </a>
+              <a href="https://github.com/njsmithfm" target="_blank">
+                <img src="icons/github.svg" alt="github logo icon" />
+              </a>
+              <a href="https://www.linkedin.com/in/njsmithfm" target="_blank">
+                <img src="icons/linkedin.svg" alt="linkedin logo icon" />
+              </a>
+          </div>
+        </div>
       </aside>
-    </div>
+      
+         </div>
   </body>
+
 </html>
