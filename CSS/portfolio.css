@@ -113,9 +113,11 @@ a {
 
 /* Thumbnail */
 .thumb {
-  border-radius: 3px;
+  border: 2px solid black;
+  border-radius: 5px;
   width: 250px; /* fixed width – adjust as you like */
-  height: 200px; /* fixed height – keeps rows uniform */
+  height: 200px;
+  /* fixed height – keeps rows uniform */
   object-fit: cover; /* crop without distortion */
 }
 
