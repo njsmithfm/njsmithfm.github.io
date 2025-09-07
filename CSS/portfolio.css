@@ -11,7 +11,7 @@
 /* Whole‑page layout */
 .wrapper {
   display: grid;
-  grid-template-columns: 1fr 3fr 1fr; /* 1/5 – 3/5 – 1/5 */
+  grid-template-columns: 1.5fr 2.5fr 1fr; /* 1/5 – 3/5 – 1/5 */
   min-height: 100vh; /* stretch to full height */
 }
 
