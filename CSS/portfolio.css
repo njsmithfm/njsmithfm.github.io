@@ -18,7 +18,6 @@
 /* Shared sidebar styling */
 .sidebar {
   padding: 5rem;
-  /* padding-bottom: 2rem; */
 }
 
 b {
@@ -34,12 +33,6 @@ b {
 .footer_socials {
   display: flex;
   justify-content: right;
-}
-
-div.footer_socials img {
-  margin-left: 10px;
-  width: 1.5rem;
-  height: 1.5rem;
 }
 
 /* Sticky positioning – stays visible while scrolling */
