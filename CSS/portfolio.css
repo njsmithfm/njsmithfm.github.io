@@ -162,11 +162,11 @@ blockquote {
 
 /* gradient animation in title text */
 .sidebar a h1 {
-  font-size: 36px;
-  font-weight: 700;
+  font-size: 40px;
+  font-weight: 400;
   text-decoration: none;
   color: transparent;
-  background: linear-gradient(45deg, #e1a0ee, #2196f3, #8bc34a);
+  background: linear-gradient(45deg, #d400ff, #0473ce, #a4ff3b);
   background-size: 400% 400%;
   background-clip: text;
   -webkit-background-clip: text;
