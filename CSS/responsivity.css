@@ -1,3 +1,129 @@
-@media screen {
-  /*  */
+@media (min-width: 601px) and (max-width: 1024px) {
+  /* -----------------------------------------------------------------
+     OPTION A – Keep the three‑column grid (slightly wider columns)
+     ----------------------------------------------------------------- */
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; /* left, main, right */
+    gap: 0; /* optional gutter */
+  }
+
+  .sidebar {
+    padding: 2rem; /* give a bit more breathing room */
+  }
+
+  /* Slightly shrink thumbnails so they don’t dominate the screen */
+  .thumb {
+    width: 200px;
+    height: 160px;
+  }
+}
+
+@media (max-width: 800px) {
+  picture img {
+    border-radius: 40%;
+  }
+}
+
+/* --------------------------------------------------------------
+   1️⃣ Collapse the 3‑column grid to a single column on small screens
+   -------------------------------------------------------------- */
+@media (max-width: 600px) {
+  /* The wrapper now behaves like a single‑column stack */
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sidebar.left p {
+    display: none;
+  }
+
+  /* Give each “section” its own natural height */
+  .sidebar,
+  .content {
+    width: 100%;
+    padding: 1rem; /* smaller padding for mobiles */
+  }
+
+  .thumb {
+    width: 160px;
+    height: 115px;
+  }
+
+  /* Remove the old grid‑based ordering – everything flows naturally */
+}
+
+/* --------------------------------------------------------------
+   2️⃣ Turn the left sidebar (title) into a sticky header
+   -------------------------------------------------------------- */
+@media (max-width: 600px) {
+  .sidebar.left {
+    position: sticky; /* sticks to the top while scrolling */
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fff; /* optional – keeps text readable over content */
+    z-index: 10; /* sit above the feed items */
+    padding: 0.75rem 1rem; /* tighter vertical spacing */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* subtle separation */
+  }
+
+  /* Reduce the title size a bit for the header view */
+  .sidebar.left .title {
+    font-size: 2rem;
+    text-align: center;
+  }
+}
+
+/* --------------------------------------------------------------
+   3️⃣ Turn the right sidebar (navigation) into a sticky footer
+   -------------------------------------------------------------- */
+@media (max-width: 600px) {
+  .sidebar.right {
+    position: sticky; /* sticks to the bottom while scrolling */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #fff; /* optional – matches page background */
+    z-index: 10;
+    padding: 0.75rem 1rem;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Center‑align the navigation links in the footer */
+  .sidebar.right .nav {
+    display: flex;
+    justify-content: space-around;
+  }
+  .sidebar.right .nav ul {
+    display: flex;
+
+    font-size: 1rem;
+  }
+
+  .sidebar.right .nav ul li a {
+    display: inline-block;
+    padding: 0.25rem 0;
+  }
+
+  /* Shrink the social‑icon bar to fit nicely */
+  .sidebar.right .footer_socials {
+    justify-content: center;
+    margin-top: 0.5rem;
+  }
+}
+
+/* --------------------------------------------------------------
+   Optional: tighten the feed layout for very narrow screens
+   -------------------------------------------------------------- */
+@media (max-width: 400px) {
+  .thumb {
+    width: 100%; /* full‑width image on ultra‑small devices */
+    height: auto;
+  }
+
+  .info .title {
+    font-size: 1.4rem;
+  }
 }

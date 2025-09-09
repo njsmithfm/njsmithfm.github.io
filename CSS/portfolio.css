@@ -191,3 +191,27 @@ blockquote {
     background-position: 0% 50%;
   }
 }
+
+/* --------------------------------------------------------------
+   About‑page layout helpers (replace the inline styles)
+   -------------------------------------------------------------- */
+.about-wrapper {
+  display: flex;
+  flex-wrap: wrap; /* allow items to wrap on narrow screens */
+  align-items: flex-start; /* top‑align text & image */
+  gap: 2rem; /* breathing room between columns */
+  margin-top: 4rem; /* roughly the 100 px you had */
+}
+
+.about-text {
+  flex: 1 1 55%; /* grow, shrink, base width ≈55% */
+  min-width: 260px; /* don’t get too skinny */
+  line-height: 135%;
+  font-size: 1.15rem;
+  font-weight: 400;
+}
+
+.about-photo {
+  flex: 0 1 35%; /* shrinkable, max ~35% of row */
+  max-width: 300px; /* cap the image size */
+}

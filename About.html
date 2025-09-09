@@ -8,6 +8,7 @@
     <meta name="author" content="NJ Smith" />
     <link rel="icon" href="img/favicon.png" type="image/x-icon" />
     <link rel="stylesheet" href="CSS/portfolio.css" />
+    <link rel="stylesheet" href="CSS/responsivity.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
@@ -19,10 +20,9 @@
         >
       </aside>
 
-      <main style="margin-top: 100px; display: flex; align-content: center; justify-content: space-between;" class="content">
-
-        <div style="width: 150%;">
-            <p style=" font-size: 1.15rem; font-weight: 800;">I'm NJ, an information designer and data journalist living in Brooklyn, NY. </p>
+     <main class="content about-wrapper">
+  <div class="about-text">
+            <p style=" font-size: 1.15rem; font-weight: 400;">I'm NJ, an information designer and data journalist living in Brooklyn, NY. </p>
             <br/>
             My original background in creative writing now informs my multimedia projects across data science and interactive tech. I have a long history in grassroots community organizations and in educational and cultural nonprofits, and I really enjoy building communications tools that empower users and communities. Collaboration has been key across all my workplaces so far, and I feel proud making meaningful contributions alongside peers I can learn from. 
             <br/>
@@ -30,11 +30,18 @@
             <b>My comfort zone:</b> ideating, Python, SQL, web development, GitHub, Figma, WordPress, the Affinity suite, TouchDesigner <br/><br/>
             <b>Currently I'm learning</b> Blender, D3.js, Svelte, QGIS, Cables.gl, p5.js<br/><br/>
             <b>I spend my free time</b> enjoying classic animation, kung fu movies, and improving my Spanish and French</p><br/> </div>
-      <div><img src="img/AboutPhoto.jpg" alt="NJ in front of Bimhuis in Amsterdam" style=" margin-left:3rem; display: flex;  max-width: 60%; height: auto;"> 
-      </div>
-
-
-      </main>
+     <div class="about-photo">
+  <picture>
+    <!-- Mobile‑first: a square/cropped headshot -->
+    <source srcset="img/AboutPhotoMobile.jpg"
+            media="(max-width: 800px)">
+    <!-- Tablet / desktop: the original wider portrait -->
+    <img src="img/AboutPhoto.jpg"
+         alt="NJ in front of Bimhuis in Amsterdam"
+         style="width:100%; height:auto;">
+  </picture>
+</div>
+</main>
 
 
 
@@ -65,7 +72,7 @@
         <div class="nav_container">
           <div class="footer_socials">
             <a
-              href="mailto:njsmith@newschool.edu?subject=Dear NJ we want to hire you"
+              href="mailto:njsmith@newschool.edu"
               target="_blank">
               <img src="icons/email.svg" alt="email CTA icon" />
             </a>
