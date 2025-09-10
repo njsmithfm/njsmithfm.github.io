@@ -33,6 +33,9 @@ h3.title {
   bottom: 0;
   margin-right: 3rem;
 }
+.nav_container_mobile {
+  display: none;
+}
 .footer_socials {
   display: flex;
   justify-content: right;
@@ -148,23 +151,6 @@ blockquote {
   margin-top: 0.5rem;
 }
 
-/* responsivity */
-@media (max-width: 800px) {
-  .wrapper {
-    grid-template-columns: 1fr;
-  }
-
-  .sidebar {
-    position: static;
-    padding: 1rem 0;
-  }
-
-  .right {
-    order: 2;
-  }
-}
-
-/* gradient animation in title text */
 .sidebar a h1 {
   font-size: 40px;
   font-weight: 500;

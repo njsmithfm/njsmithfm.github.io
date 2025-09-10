@@ -1,23 +1,8 @@
-@media (min-width: 781px) and (max-width: 1280px) {
-  /* -----------------------------------------------------------------
-     OPTION A – Keep the three‑column grid (slightly wider columns)
-     ----------------------------------------------------------------- */
-  .wrapper {
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr; /* left, main, right */
-    gap: 0; /* optional gutter */
-  }
-
-  .sidebar {
-    padding: 2rem; /* give a bit more breathing room */
-  }
-
-  /* Slightly shrink thumbnails so they don’t dominate the screen */
+@media (min-width: 781px) and (max-width: 1350px) {
   .thumb {
     width: 200px;
     height: 160px;
   }
-
   h3.title {
     font-size: 1.25rem;
   }
@@ -25,73 +10,80 @@
 
 @media (max-width: 800px) {
   picture img {
-    border-radius: 40%;
+    border-radius: 30%;
   }
 }
 
-/* --------------------------------------------------------------
-   1️⃣ Collapse the 3‑column grid to a single column on small screens
-   -------------------------------------------------------------- */
 @media (max-width: 1000px) {
-  /* The wrapper now behaves like a single‑column stack */
+  /* Layout */
   .wrapper {
     display: flex;
     flex-direction: column;
   }
 
-  .sidebar.left p {
+  .nav {
+    display: block;
+  }
+
+  .nav_container {
     display: none;
   }
 
-  /* Give each “section” its own natural height */
+  .nav_container_mobile {
+    display: contents;
+  }
+
   .sidebar,
   .content {
     width: 100%;
-    padding: 1rem; /* smaller padding for mobiles */
+    padding: 1rem;
   }
 
+  /* Sidebar – left */
+  .sidebar.left .title {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .sidebar.left p {
+    display: none;
+  }
+  .sidebar.left {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    z-index: 10; /* sit above the feed items */
+    padding: 0.75rem 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Thumbnails – smaller at this breakpoint */
   .thumb {
     width: 160px;
     height: 115px;
   }
 
-  /* Remove the old grid‑based ordering – everything flows naturally */
-
-  .sidebar.left {
-    position: sticky; /* sticks to the top while scrolling */
-    top: 0;
-    left: 0;
-    right: 0;
-    background: #fff; /* optional – keeps text readable over content */
-    z-index: 10; /* sit above the feed items */
-    padding: 0.75rem 1rem; /* tighter vertical spacing */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* subtle separation */
-  }
-
-  /* Reduce the title size a bit for the header view */
-  .sidebar.left .title {
-    font-size: 2rem;
-    text-align: center;
-  }
+  /* Titles */
   h3.title {
     font-size: 1rem;
   }
 
+  /* Sidebar – right (mobile footer) */
   .sidebar.right {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    position: sticky; /* sticks to the bottom while scrolling */
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    position: sticky;
     bottom: 0;
     left: 0;
     right: 0;
-    background: #fff; /* optional – matches page background */
+    background: #fff;
     z-index: 10;
     padding: 0.75rem 1rem;
     box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
   }
-
-  /* Center‑align the navigation links in the footer */
   .sidebar.right .nav {
     display: flex;
     justify-content: space-around;
@@ -103,20 +95,6 @@
     align-items: center;
     font-size: 1rem;
   }
-
-  .sidebar.right .nav ul li a {
-    display: flex;
-    padding: 0.25rem 0;
-    align-items: center;
-    justify-content: center;
-  }
-
-  /* Shrink the social‑icon bar to fit nicely */
-  .sidebar.right .footer_socials {
-    display: flex;
-    justify-content: center;
-    margin-top: 0.5rem;
-  }
 }
 
 @media (max-width: 400px) {
@@ -125,5 +103,12 @@
   }
   .about-photo-mobile {
     display: contents;
+  }
+
+  h3.title {
+    max-width: 100%;
+  }
+  blockquote {
+    display: none;
   }
 }
