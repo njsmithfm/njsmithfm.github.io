@@ -1,4 +1,4 @@
-@media (min-width: 601px) and (max-width: 1024px) {
+@media (min-width: 781px) and (max-width: 1024px) {
   /* -----------------------------------------------------------------
      OPTION A – Keep the three‑column grid (slightly wider columns)
      ----------------------------------------------------------------- */
@@ -17,6 +17,10 @@
     width: 200px;
     height: 160px;
   }
+
+  h3.title {
+    font-size: 1.25rem;
+  }
 }
 
 @media (max-width: 800px) {
@@ -28,7 +32,7 @@
 /* --------------------------------------------------------------
    1️⃣ Collapse the 3‑column grid to a single column on small screens
    -------------------------------------------------------------- */
-@media (max-width: 600px) {
+@media (max-width: 780px) {
   /* The wrapper now behaves like a single‑column stack */
   .wrapper {
     display: flex;
@@ -57,7 +61,7 @@
 /* --------------------------------------------------------------
    2️⃣ Turn the left sidebar (title) into a sticky header
    -------------------------------------------------------------- */
-@media (max-width: 600px) {
+@media (max-width: 780px) {
   .sidebar.left {
     position: sticky; /* sticks to the top while scrolling */
     top: 0;
@@ -74,13 +78,19 @@
     font-size: 2rem;
     text-align: center;
   }
+  h3.title {
+    font-size: 1rem;
+  }
 }
 
 /* --------------------------------------------------------------
    3️⃣ Turn the right sidebar (navigation) into a sticky footer
    -------------------------------------------------------------- */
-@media (max-width: 600px) {
+@media (max-width: 780px) {
   .sidebar.right {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     position: sticky; /* sticks to the bottom while scrolling */
     bottom: 0;
     left: 0;
@@ -98,32 +108,23 @@
   }
   .sidebar.right .nav ul {
     display: flex;
-
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     font-size: 1rem;
   }
 
   .sidebar.right .nav ul li a {
-    display: inline-block;
+    display: flex;
     padding: 0.25rem 0;
+    align-items: center;
+    justify-content: center;
   }
 
   /* Shrink the social‑icon bar to fit nicely */
   .sidebar.right .footer_socials {
+    display: flex;
     justify-content: center;
     margin-top: 0.5rem;
-  }
-}
-
-/* --------------------------------------------------------------
-   Optional: tighten the feed layout for very narrow screens
-   -------------------------------------------------------------- */
-@media (max-width: 400px) {
-  .thumb {
-    width: 100%; /* full‑width image on ultra‑small devices */
-    height: auto;
-  }
-
-  .info .title {
-    font-size: 1.4rem;
   }
 }
