@@ -118,3 +118,12 @@
     margin-top: 0.5rem;
   }
 }
+
+@media (max-width: 400px) {
+  .about-photo {
+    display: none;
+  }
+  .about-photo-mobile {
+    display: contents;
+  }
+}

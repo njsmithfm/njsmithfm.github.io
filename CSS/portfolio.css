@@ -219,3 +219,7 @@ blockquote {
   flex: 0 1 35%; /* shrinkable, max ~35% of row */
   max-width: 300px; /* cap the image size */
 }
+
+.about-photo-mobile {
+  display: none;
+}
