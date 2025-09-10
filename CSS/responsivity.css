@@ -1,4 +1,4 @@
-@media (min-width: 781px) and (max-width: 1024px) {
+@media (min-width: 781px) and (max-width: 1280px) {
   /* -----------------------------------------------------------------
      OPTION A – Keep the three‑column grid (slightly wider columns)
      ----------------------------------------------------------------- */
@@ -32,7 +32,7 @@
 /* --------------------------------------------------------------
    1️⃣ Collapse the 3‑column grid to a single column on small screens
    -------------------------------------------------------------- */
-@media (max-width: 780px) {
+@media (max-width: 1000px) {
   /* The wrapper now behaves like a single‑column stack */
   .wrapper {
     display: flex;
@@ -56,12 +56,7 @@
   }
 
   /* Remove the old grid‑based ordering – everything flows naturally */
-}
 
-/* --------------------------------------------------------------
-   2️⃣ Turn the left sidebar (title) into a sticky header
-   -------------------------------------------------------------- */
-@media (max-width: 780px) {
   .sidebar.left {
     position: sticky; /* sticks to the top while scrolling */
     top: 0;
@@ -81,12 +76,7 @@
   h3.title {
     font-size: 1rem;
   }
-}
 
-/* --------------------------------------------------------------
-   3️⃣ Turn the right sidebar (navigation) into a sticky footer
-   -------------------------------------------------------------- */
-@media (max-width: 780px) {
   .sidebar.right {
     display: flex;
     flex-direction: row;

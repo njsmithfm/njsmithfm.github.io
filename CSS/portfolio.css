@@ -24,6 +24,10 @@ b {
   font-weight: 800;
 }
 
+h3.title {
+  max-width: 60%;
+}
+
 .nav_container {
   position: sticky;
   bottom: 0;
