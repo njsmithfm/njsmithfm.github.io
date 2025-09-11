@@ -1,3 +1,10 @@
+/* 
+
+1350 PX SCREENS
+
+
+*/
+
 @media (min-width: 781px) and (max-width: 1350px) {
   .thumb {
     width: 200px;
@@ -5,14 +12,16 @@
   }
   h3.title {
     font-size: 1.25rem;
+    max-width: 100%;
   }
 }
 
-@media (max-width: 800px) {
-  picture img {
-    border-radius: 30%;
-  }
-}
+/* 
+
+1000 PX SCREENS
+
+
+*/
 
 @media (max-width: 1000px) {
   /* Layout */
@@ -21,16 +30,12 @@
     flex-direction: column;
   }
 
-  .nav {
-    display: block;
-  }
-
-  .nav_container {
-    display: none;
-  }
-
-  .nav_container_mobile {
-    display: contents;
+  .feed {
+    justify-content: center;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem; /* vertical space between rows */
   }
 
   .sidebar,
@@ -69,12 +74,13 @@
     font-size: 1rem;
   }
 
-  /* Sidebar – right (mobile footer) */
+  /* Hide desktop navigation container */
+  .nav_container {
+    display: none;
+  }
+
+  /* Mobile footer styling */
   .sidebar.right {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
     position: sticky;
     bottom: 0;
     left: 0;
@@ -83,32 +89,96 @@
     z-index: 10;
     padding: 0.75rem 1rem;
     box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    max-height: 60px;
   }
-  .sidebar.right .nav {
-    display: flex;
-    justify-content: space-around;
-  }
+
+  /* Navigation menu - horizontal row */
   .sidebar.right .nav ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    gap: 1.5rem; /* Space between menu items */
+  }
+
+  .sidebar.right .nav li {
+    margin: 0; /* Remove default vertical margin */
+  }
+
+  .sidebar.right .nav a {
+    display: block;
+    text-align: center;
+  }
+
+  /* Social icons - centered row below navigation */
+  .sidebar.right .footer_socials {
+    justify-content: center;
+    margin-top: 0.5rem;
+    gap: 0.75rem; /* Space between social icons */
+  }
+
+  .sidebar.right .footer_socials img {
+    margin: 0; /* Remove left margin, use gap instead */
   }
 }
 
-@media (max-width: 400px) {
+/* 
+
+800 PX SCREENS
+
+
+*/
+
+@media (max-width: 800px) {
+  blockquote {
+    display: none;
+  }
+}
+
+/* 
+
+600 PX SCREENS
+
+
+*/
+@media (max-width: 600px) {
   .about-photo {
     display: none;
   }
-  .about-photo-mobile {
-    display: contents;
-  }
 
+  .about-photo-mobile {
+    display: block;
+    margin-top: 1rem;
+  }
+}
+
+/* 
+
+400 PX SCREENS
+
+
+*/
+
+@media (max-width: 400px) {
   h3.title {
     max-width: 100%;
   }
-  blockquote {
-    display: none;
+
+  /* Smaller spacing for very small screens */
+  .sidebar.right .nav ul {
+    gap: 1rem;
+    font-size: 0.9rem;
+  }
+
+  .mobile_socials {
+    gap: 0.5rem;
+  }
+
+  .mobile_socials img {
+    width: 1.25rem;
+    height: 1.25rem;
   }
 }

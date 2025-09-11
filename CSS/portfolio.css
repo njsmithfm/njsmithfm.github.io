@@ -1,3 +1,4 @@
+/* portfolio.css - Updated sections only */
 @import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
@@ -8,20 +9,15 @@
   padding: 0;
 }
 
-/* Whole‑page layout */
+/* Whole-page layout */
 .wrapper {
   display: grid;
   grid-template-columns: 1.5fr 2.5fr 1fr; /* 1/5 – 3/5 – 1/5 */
-  min-height: 100vh; /* stretch to full height */
 }
 
 /* Shared sidebar styling */
 .sidebar {
   padding: 5rem;
-}
-
-b {
-  font-weight: 800;
 }
 
 h3.title {
@@ -31,14 +27,15 @@ h3.title {
 .nav_container {
   position: sticky;
   bottom: 0;
-  margin-right: 3rem;
 }
-.nav_container_mobile {
-  display: none;
-}
+
 .footer_socials {
   display: flex;
-  justify-content: right;
+  justify-content: center; /* Desktop: align right */
+  align-items: center;
+  position: sticky;
+  bottom: 0;
+  margin-right: 3rem;
 }
 
 div.footer_socials img {
@@ -57,7 +54,7 @@ div.footer_socials img {
 
 .right nav ul li a {
   display: flex;
-  justify-content: right;
+  justify-content: flex-end; /* Changed from 'right' to 'flex-end' */
 }
 
 /* Main content area */
@@ -96,6 +93,7 @@ h2 {
 .nav a:hover {
   color: rgb(255, 0, 212);
 }
+
 /* ---------- Feed container ---------- */
 .feed {
   margin-top: 6rem; /* space from the heading above */
@@ -183,29 +181,46 @@ blockquote {
 }
 
 /* --------------------------------------------------------------
-   About‑page layout helpers (replace the inline styles)
+   About-page layout helpers (replace the inline styles)
    -------------------------------------------------------------- */
 .about-wrapper {
   display: flex;
-  flex-wrap: wrap; /* allow items to wrap on narrow screens */
-  align-items: flex-start; /* top‑align text & image */
-  gap: 2rem; /* breathing room between columns */
-  margin-top: 4rem; /* roughly the 100 px you had */
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 4rem;
 }
 
 .about-text {
-  flex: 1 1 55%; /* grow, shrink, base width ≈55% */
-  min-width: 260px; /* don’t get too skinny */
+  flex: 1 1 55%;
+  font-size: 1rem;
   line-height: 135%;
-  font-size: 1.15rem;
-  font-weight: 400;
 }
 
 .about-photo {
-  flex: 0 1 35%; /* shrinkable, max ~35% of row */
-  max-width: 300px; /* cap the image size */
+  flex: 1 1 35%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.about-photo img {
+  max-width: 100%;
+  min-width: 100px;
+  height: auto;
 }
 
 .about-photo-mobile {
   display: none;
+  text-align: center;
+}
+
+.about-photo-mobile img {
+  max-width: 75%;
+  height: auto;
+  border-radius: 20%;
+}
+
+b {
+  margin-top: 2rem;
+  font-weight: 800;
 }
