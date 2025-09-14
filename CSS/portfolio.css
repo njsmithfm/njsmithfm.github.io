@@ -31,11 +31,11 @@ h3.title {
 
 .footer_socials {
   display: flex;
-  justify-content: center; /* Desktop: align right */
+  justify-content: right; /* Desktop: align right */
   align-items: center;
   position: sticky;
   bottom: 0;
-  margin-right: 3rem;
+  margin-top: 2rem;
 }
 
 div.footer_socials img {
