@@ -197,6 +197,10 @@ blockquote {
   line-height: 135%;
 }
 
+.about-text-list-items {
+  margin-top: 0.5rem;
+}
+
 .about-photo {
   flex: 1 1 35%;
   display: flex;
@@ -221,7 +225,6 @@ blockquote {
   border-radius: 20%;
 }
 
-b {
-  margin-top: 2rem;
+strong {
   font-weight: 800;
 }
