@@ -228,3 +228,8 @@ blockquote {
 strong {
   font-weight: 800;
 }
+
+.first-sentence {
+  font-weight: 800;
+  width: 55%;
+}

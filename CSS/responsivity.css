@@ -136,6 +136,10 @@
   blockquote {
     display: none;
   }
+
+  .first-sentence {
+    width: 100%;
+  }
 }
 
 /* 
