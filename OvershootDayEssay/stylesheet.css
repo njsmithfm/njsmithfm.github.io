@@ -357,3 +357,21 @@ img {
   display: flex;
   max-width: 1200px;
 }
+
+.graph-desktop {
+  display: contents;
+}
+
+.graph-mobile {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .graph-desktop {
+    display: none;
+  }
+
+  .graph-mobile {
+    display: contents;
+  }
+}
