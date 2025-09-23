@@ -128,14 +128,13 @@ nav {
   margin-bottom: 1.5rem;
 }
 
-.text a {
+a {
   color: #2196f3;
   text-decoration: underline;
-  transition: color 0.3s ease;
 }
 
-.text a:hover {
-  color: #4caf50;
+a:hover {
+  color: #ffffff;
 }
 
 /* Embed Blocks - Fixed sizing issues */
