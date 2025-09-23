@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Earth Overshoot Day 2024</title>
+    <meta
+      name="keywords"
+      content="NJ Smith, information designer, portfolio, Earth Overshoot Day"
+    />
+    <meta name="author" content="NJ Smith" />
+    <link rel="icon" href="img/favicon.png" type="image/x-icon" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="OvershootDayEssay/style.css" />
+    <link rel="stylesheet" href="OvershootDayEssay/stylesheet.css" />
+
+    <style>
+      #scrolly {
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        background-color: #f3f3f3;
+        padding: 1rem;
+      }
+
+      #scrolly > * {
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+      }
+
+      article {
+        position: relative;
+        padding: 0 1rem;
+        max-width: 20rem;
+      }
+
+      .sticky-thing {
+        position: -webkit-sticky;
+        position: sticky;
+        width: 100%;
+        margin: 0;
+        border-radius: 3px;
+        border-color: black;
+        background-color: white;
+        z-index: 0;
+        top: 12.5vh;
+        height: 75vh;
+        /* Center everything inside */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .sticky-thing p {
+        padding: 1rem;
+        font-size: 8rem;
+        font-weight: 900;
+        color: #000000;
+      }
+
+      .step {
+        margin: 0 auto 2rem auto;
+        text-align: left;
+        opacity: 0;
+        padding: 1rem;
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+      }
+
+      .step:last-child {
+        margin-bottom: 0;
+      }
+
+      .step.is-active {
+        opacity: 1;
+        color: #000000;
+      }
+
+      .step p {
+        display: contents;
+        text-align: left;
+        padding: 1rem;
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <nav>
+        <h3 id="navTitle">Earth Overshoot Day 2024</h3>
+      </nav>
+
+      <div class="header title step" id="mainTitle">
+        <div class="aligner">
+          <h1>
+            What Is
+            <div class="gradient-text" style="display: inline-block">
+              Earth Overshoot Day?
+            </div>
+          </h1>
+        </div>
+      </div>
+
+      <div class="text" style="margin-top: 15px; margin-bottom: 15px">
+        <address>
+          By <a href="https://njsmithfm.github.io" target="_blank">NJ Smith</a>
+        </address>
+      </div>
+
+      <div class="aligner">
+        <p style="font-style: italic; font-size: 0.75rem">
+          Note: this page is best viewed on desktop; it has not yet been adapted
+          for mobile.
+        </p>
+      </div>
+
+      <div class="text">
+        <h1>
+          "Overshoot Day" is the date each year on which our consumption of
+          resources surpasses Earth's generative budget for that year.
+        </h1>
+        <p>
+          "Earth Overshoot Day" is a joint initiative by the Global Footprint
+          Network, York University, and Footprint Data Foundation. It addresses
+          the question of
+          <i
+            >"how do we model patterns of behavior, country by country, for
+            renewable resources?"</i
+          >
+
+          The key insight the research offers is the concept of "Overshoot Day,"
+          which is a calculation of the date in each calendar year in which the
+          demand for renewable resources surpasses Earth's ability to renew
+          those resources, within the year.
+        </p>
+
+        <p>
+          The data published through this research's
+          <a
+            href="https://data.footprintnetwork.org/#/abouttheData"
+            target="_blank"
+            >open data platform</a
+          >
+          yields several interesting metrics, both for planet Earth as well as
+          individual countries. For example, let us explore the following
+          map--it indicates, country by country, the amount of Earths it would
+          take to meet the consumption demands on natural resources if everyone
+          across the planet consumed resources as the country in question does.
+          The United States requires 4.9 Earths, which means that if all
+          countries consumed resources at the rate that Americans do, it would
+          require 4.9 Earths to meet the demand within a calendar year.
+        </p>
+      </div>
+
+      <section id="scrolly">
+        <article>
+          <div
+            class="step"
+            data-step="1"
+            data-src="OvershootDayEssay/Datawrapper.html"
+          >
+            <p>
+              This map visualizes resource usage, by indicating how many Earths
+              would be necessary if everyone globally consumed like the citizens
+              in each respective country. (for which data is available)
+            </p>
+          </div>
+          <div
+            class="step"
+            data-step="2"
+            data-src="OvershootDayEssay/OvershootScatterplot.html"
+          >
+            <p>
+              This scatterplot reveals the relationship between a country's
+              biocapacity and ecological footprint, plotted according to each
+              country's Overshoot Day in 2024. (Some countries' ecological
+              demand did not surpass Earth's ability to generate resources,
+              which means they had no Overshoot Day for 2024 and they are not
+              plotted here)
+            </p>
+          </div>
+          <div
+            class="step"
+            data-step="3"
+            data-src="OvershootDayEssay/EchartsBiocapacityOverTime.html"
+          >
+            <p>
+              Earth's biocapacity is made up of different types of land or
+              water, measured in global hectares which are "biologically
+              productive hectare[s] with world-average productivity." Footprint
+              Network divides this into
+              <a
+                href="https://www.footprintnetwork.org/resources/glossary/#land-area-type"
+                target="_blank"
+                >5 categories of productive renewable area</a
+              >: Grazing Land, Forest Products, Fishing Grounds, Cropland, and
+              Built-Up Land, which together yield the Earth's total biocapacity.
+              Below we see each of these area types gradually decreasing each
+              year since Footprint Network began tracking the data, in 1961. The
+              area chart below shows Earth's resoureces in hectares available on
+              a per-person basis, in constant decline over the past several
+              decades.
+            </p>
+          </div>
+          <div
+            class="step"
+            data-step="4"
+            data-src="OvershootDayEssay/Cartogram.html"
+          >
+            <p>
+              Earth Overshoot Day is a useful metric, offering a paradigm which
+              centers us in relationship with Earth's material budget. By
+              placing us in a measurable position on the calendar, and with
+              insights country-by-country down to the individual level, it
+              closes the gap between a subject and their surroundings. "The
+              environment" is no longer separated from the individual.
+            </p>
+
+            <p>
+              This point of view encourages us to think about resource
+              consumption in terms of regenerative capacity, and highlights the
+              urgent need for systemic changes in how we produce, consume, and
+              manage resources globally, while placing each of us within the
+              effort.
+            </p>
+          </div>
+        </article>
+
+        <div class="sticky-thing">
+          <iframe
+            id="graphic-frame"
+            width="100%"
+            height="100%"
+            frameborder="0"
+          ></iframe>
+        </div>
+      </section>
+
+      <section id="outro"></section>
+
+      <div class="text">
+        <h1>Overshoot Day As Paradigm</h1>
+        <p>
+          Earth Overshoot Day is a useful metric, offering a paradigm which
+          centers us in relationship with Earth's material budget. By placing us
+          in a measurable position on the calendar, and with insights
+          country-by-country down to the individual level, it closes the gap
+          between a subject and their surroundings. "The environment" is no
+          longer separated from the individual.
+        </p>
+
+        <p>
+          This point of view encourages us to think about resource consumption
+          in terms of regenerative capacity, and highlights the urgent need for
+          systemic changes in how we produce, consume, and manage resources
+          globally, while placing each of us within the effort.
+        </p>
+      </div>
+
+      <div class="text">
+        <h1>What Can We Do?</h1>
+        <p>
+          Some of The Footprint Network's proposed solutions range from personal
+          changes such as reduced meat consumption, car travel, and energy use,
+          to larger policy shifts like prioritizing renewable energy, land
+          protections, and economic reform. Through any and all actions, the
+          goal is to move the goalpost and push the Overshoot Date to earlier in
+          the calendar year.
+        </p>
+      </div>
+
+      <div class="text">
+        <h2>Further Exploration</h2>
+        <p>
+          More ideas toward solutions can be explored at
+          <a
+            href="https://www.overshootday.org/power-of-possibility/"
+            target="_blank"
+            >overshootday.org</a
+          >.
+        </p>
+      </div>
+
+      <footer
+        style="
+          text-align: center;
+          padding: 2rem;
+          background: #000;
+          color: white;
+        "
+      >
+        <p>
+          <a
+            href="https://www.footprintnetwork.org/"
+            target="_blank"
+            style="color: #4caf50"
+            >Global Footprint Network</a
+          >.
+        </p>
+      </footer>
+    </main>
+
+    <!-- <div class='debug'></div> -->
+    <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
+    <script src="https://unpkg.com/scrollama"></script>
+    <script>
+      var main = document.querySelector("main");
+      var scrolly = main.querySelector("#scrolly");
+      var sticky = scrolly.querySelector(".sticky-thing");
+      var article = scrolly.querySelector("article");
+      var steps = article.querySelectorAll(".step");
+
+      // initialize the scrollama
+      let scroller = scrollama();
+
+      // scrollama event handlers
+      function handleStepEnter(response) {
+        // response = { element, direction, index }
+        var el = response.element;
+
+        // remove is-active from all steps
+        // then add is-active to this step
+        steps.forEach((step) => step.classList.remove("is-active"));
+        el.classList.add("is-active");
+
+        // update graphic based on step
+        // load iframe src
+        const iframe = document.getElementById("graphic-frame");
+        const newSrc = el.dataset.src;
+
+        if (iframe && newSrc) {
+          iframe.src = newSrc;
+        }
+      }
+
+      function init() {
+        scroller
+          .setup({
+            step: "#scrolly article .step",
+            offset: 0.33,
+            debug: false,
+          })
+          .onStepEnter(handleStepEnter);
+
+        // setup resize event
+        window.addEventListener("resize", scroller.resize);
+      }
+
+      // kick things off
+      init();
+    </script>
+  </body>
+</html>
