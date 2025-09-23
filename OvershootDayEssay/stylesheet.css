@@ -2,6 +2,7 @@
 
 /* Reset and Base Styles */
 * {
+  font-family: "Public Sans", sans-serif !important;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -13,14 +14,6 @@ html {
   background-color: #d6f7ed;
   line-height: 1.6;
   scroll-behavior: smooth;
-}
-
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Public Sans", sans-serif !important;
 }
 
 /* Navigation */
@@ -35,13 +28,6 @@ nav {
   padding: 1rem 0;
   border-bottom: 0.05em solid black;
   z-index: 100;
-}
-
-#navTitle {
-  opacity: 0;
-  transition: opacity 0.5s ease;
-  font-size: 1.2rem;
-  font-weight: 600;
 }
 
 /* Header Section */
@@ -118,9 +104,9 @@ nav {
 
 .text h2 {
   font-weight: 800;
-  font-size: 1.1rem;
-
-  margin-bottom: 1rem;
+  font-size: 3rem;
+  line-height: 4rem;
+  margin-bottom: 1.5rem;
 }
 
 .text p {
@@ -135,43 +121,6 @@ a {
 
 a:hover {
   color: #ffffff;
-}
-
-/* Embed Blocks - Fixed sizing issues */
-.center_aligner {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 4rem auto;
-  padding: 0 2rem;
-}
-
-.embed-block {
-  border: 0.5rem solid black;
-  background: white;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-  width: 100%;
-  max-width: 1200px;
-}
-
-.embed-block iframe {
-  width: 100%;
-  height: 600px;
-  border: none;
-  display: block;
-}
-
-/* Special sizing for Tableau container */
-.embed-block .tableauPlaceholder {
-  height: 800px;
-  min-height: 700px;
-}
-
-/* Datawrapper specific sizing */
-#datawrapper-chart-r6tx9 {
-  padding: 10px;
 }
 
 /* Sticky Scrolly Section */
@@ -223,154 +172,6 @@ a:hover {
   margin: 10%;
 }
 
-.aligner {
-  text-align: center;
-  padding: 2rem;
-  width: 100%;
-}
-
-.aligner h1 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-  color: black;
-}
-
 #mainTitle h1 {
   color: white;
-}
-
-.aligner h2 {
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: #666;
-  margin-top: 1rem;
-}
-
-#counter {
-  font-size: clamp(1rem, 2vw, 2rem);
-  font-weight: 800;
-  letter-spacing: -0.05em;
-  line-height: 1;
-  color: #4caf50;
-  margin: 1rem 0;
-}
-
-/* Improved iframe responsiveness */
-.responsive-iframe {
-  position: relative;
-  width: 100%;
-  height: 0;
-  padding-bottom: 56.25%;
-  /* 16:9 aspect ratio */
-}
-
-.responsive-iframe iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-/* Responsive Design */
-@media screen and (max-width: 768px) {
-  .scrolly-container {
-    flex-direction: column;
-  }
-
-  .leftside {
-    width: 100%;
-    padding: 5%;
-  }
-
-  .sticky {
-    position: static;
-    width: 100%;
-    height: 50vh;
-    margin: 2rem 0;
-  }
-
-  .progressive {
-    margin-bottom: 3rem;
-  }
-
-  .text {
-    margin: 10% 5%;
-  }
-
-  .text h1 {
-    max-width: 100%;
-  }
-
-  .embed-block iframe {
-    height: 400px;
-  }
-
-  #datawrapper-chart-r6tx9 {
-    height: 350px;
-  }
-
-  .tableauPlaceholder {
-    height: 500px !important;
-    min-height: 450px !important;
-  }
-
-  .center_aligner {
-    padding: 0 1rem;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .embed-block {
-    border-width: 0.25rem;
-    margin: 2rem 1rem;
-  }
-
-  .embed-block iframe {
-    height: 300px;
-  }
-
-  .tableauPlaceholder {
-    height: 400px !important;
-    min-height: 350px !important;
-  }
-
-  .text {
-    padding: 0 1rem;
-  }
-
-  .title {
-    height: 80vh;
-  }
-
-  .progressive h1 {
-    font-size: 2rem;
-  }
-
-  #counter {
-    font-size: 4rem;
-  }
-}
-
-img {
-  display: flex;
-  max-width: 1200px;
-}
-
-.graph-desktop {
-  display: contents;
-}
-
-.graph-mobile {
-  display: none;
-}
-
-@media (max-width: 800px) {
-  .graph-desktop {
-    display: none;
-  }
-
-  .graph-mobile {
-    display: contents;
-  }
 }
