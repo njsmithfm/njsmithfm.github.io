@@ -3,79 +3,86 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="description" content="blog of things" />
-    <title>MAYDAY Magazine</title>
+    <title>About NJ Smith</title>
     <meta name="keywords" content="NJ Smith, information designer, portfolio" />
     <meta name="author" content="NJ Smith" />
     <link rel="icon" href="img/favicon.png" type="image/x-icon" />
     <link rel="stylesheet" href="CSS/portfolio.css" />
+    <link rel="stylesheet" href="CSS/responsivity.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
     <div class="wrapper">
-      <!-- Left sidebar -->
       <aside class="sidebar left">
-        <a href="https://njsmithfm.github.io/">
-          <h1 class="title">NJ Smith</h1></a
+        <a href="https://njsmithfm.github.io/"
+          ><h1 class="title">NJ Smith</h1></a
         >
       </aside>
 
-      <main style="margin-top: 100px; display: flex; align-content: center;" class="content">
+      <main class="content about-wrapper">
+        <div class="about-text">
+          <p class="first-sentence">
+            I'm NJ, an information designer and data journalist living in
+            Brooklyn.
+          </p>
 
-        <div style="width: 50%;">
-            <p style=" font-size: 1.15rem; font-weight: 800;">I'm NJ, an information designer and data journalist living in Brooklyn, NY. </p>
-            <br/>
-            My original background in creative writing now informs my multimedia projects across data science and interactive tech. I have a long history in grassroots community organizations and in educational and cultural nonprofits, and I really enjoy building communications tools that empower users and communities. Collaboration has been key across all my workplaces so far, and I feel proud making meaningful contributions alongside peers I can learn from. 
-            <br/>
-            <br/>
-            <b>My comfort zone:</b> ideating, Python, SQL, web development, GitHub, Figma, WordPress, the Affinity suite, TouchDesigner <br/><br/>
-            <b>Currently I'm learning</b> Blender, D3.js, Svelte, QGIS, Cables.gl, p5.js<br/><br/>
-            <b>I spend my free time</b> enjoying classic animation, kung fu movies, and improving my Spanish and French</p><br/> </div>
-      <div><img src="img/AboutPhoto.jpg" alt="NJ in front of Bimhuis in Amsterdam" style=" margin-left:3rem; display: flex; max-block-size: 100%; max-height: 100%; max-width: 350px;"> 
-      </div>
+          <p class="about-text-list-items">
+            My early background in creative writing now informs my multimedia
+            projects across data science and interactive tech. I have a long
+            history in grassroots community organizations and in educational and
+            cultural nonprofits, and I now really enjoy building communications
+            tools to illuminate, explain, and empower. Collaboration has been central to all my working experience, and I feel proud when I find myself alongside peers I can learn from.
+          </p>
 
+          <picture class="about-photo-mobile">
+            <source
+              srcset="img/AboutPhotoMobile.jpg"
+              media="(max-width: 600px)"
+            />
+            <img
+              src="img/AboutPhotoMobile.jpg"
+              alt="NJ in front of Bimhuis in Amsterdam"
+            />
+          </picture>
 
+          <p>
+            <div class="about-text-list-items"><strong>My comfort zone:</strong> web development, Python, SQL, Git and GitHub, Figma, WordPress, the Affinity suite, TouchDesigner</div>
+            <div class="about-text-list-items"><strong>Currently I'm learning:</strong> Blender, D3.js, Svelte, QGIS, p5.js, Hugo</div>
+            <div class="about-text-list-items"><strong>I spend my free time:</strong> illustrating, studying classic
+            animation, kung fu movies, and improving my Spanish</div>
+          </p>
+        </div>
+
+        <div class="about-photo">
+          <picture>
+            <source srcset="img/AboutPhoto.jpg" media="(min-width: 601px)" />
+            <img
+              src="img/AboutPhoto.jpg"
+              alt="NJ in front of Bimhuis in Amsterdam"
+            />
+          </picture>
+        </div>
       </main>
 
-
-
-
-      <!-- Right sidebar -->
       <aside class="sidebar right">
         <nav class="nav">
           <ul>
-            <!-- <li><a href="#">Interactives</a></li>
-            <li><a href="#">Multimedia</a></li>
-            <li><a href="#">Editorial</a></li> -->
-            <br />
-            <li><a href="About.html">About Me</a></li>
-            <li>
-              <a
-                href="mailto:njsmith@newschool.edu?subject=Dear NJ we want to hire you"
-                >Contact</a
-              >
-            </li>
-            <!-- <li><a href="blog/FlowersofMemory">Blog</a></li> -->
-              <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="mailto:njsmith.fm@gmail.com">Contact</a></li>
+            <li><a href="index.html">Home</a></li>
           </ul>
-          
-          
         </nav>
-      
-        </div>
-        <div class="nav_container">
-          <div class="footer_socials">
-            <a
-              href="mailto:njsmith@newschool.edu?subject=Dear NJ we want to hire you"
-              target="_blank">
-              <img src="icons/email.svg" alt="email CTA icon" />
-            </a>
-              <a href="https://github.com/njsmithfm" target="_blank">
-                <img src="icons/github.svg" alt="github logo icon" />
-              </a>
-              <a href="https://www.linkedin.com/in/njsmithfm" target="_blank">
-                <img src="icons/linkedin.svg" alt="linkedin logo icon" />
-              </a>
-          </div>
+
+        <div class="footer_socials">
+          <a href="mailto:njsmith.fm@gmail.com" target="_blank"
+            ><img src="icons/email.svg" alt="email CTA icon"
+          /></a>
+          <a href="https://github.com/njsmithfm" target="_blank"
+            ><img src="icons/github.svg" alt="github logo icon"
+          /></a>
+          <a href="https://www.linkedin.com/in/njsmithfm" target="_blank"
+            ><img src="icons/linkedin.svg" alt="linkedin logo icon"
+          /></a>
         </div>
       </aside>
     </div>
