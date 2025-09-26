@@ -47,35 +47,36 @@
             launch party in SoHo. (They're both great sports)
           </p>
 
-          <div style="display: block; margin: 1rem 1rem" class="about-photo">
-            <picture>
-              <source
-                srcset="img/BackMatterPartyFlyer.png"
-                media="min-width: 301px"
-              />
-              <img
-                src="img/BackMatterPartyFlyer.png"
-                style="max-width: 300px"
-                alt="Back Matter 2023 launch flyer"
-              />
-            </picture>
-          </div>
           <div class="about-photo-mobile">
             <video controls width="300">
               <source src="video/BackMatterCommercial.mp4" type="video/mp4" />
             </video>
           </div>
+
+          <div style="margin: 1rem 1rem" class="about-photo">
+            <video
+              controls
+              disablepictureinpicture
+              controlslist="nodownload noremoteplayback"
+              width="300"
+            >
+              <source src="video/BackMatterCommercial.mp4" type="video/mp4" />
+            </video>
+          </div>
         </div>
 
-        <div class="about-photo">
-          <video
-            controls
-            disablepictureinpicture
-            controlslist="nodownload noremoteplayback"
-            width="300"
-          >
-            <source src="video/BackMatterCommercial.mp4" type="video/mp4" />
-          </video>
+        <div style="width: 100%" class="about-photo">
+          <picture>
+            <source
+              srcset="img/BackMatterPartyFlyer.png"
+              media="min-width: 301px"
+            />
+            <img
+              src="img/BackMatterPartyFlyer.png"
+              style="max-width: 300px"
+              alt="Back Matter 2023 launch flyer"
+            />
+          </picture>
         </div>
       </main>
 
