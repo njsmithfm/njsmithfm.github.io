@@ -36,7 +36,6 @@
     display: flex;
     flex-direction: column;
     gap: 1.25rem; /* vertical space between rows */
-    margin-left: 3rem;
   }
 
   .sidebar,
