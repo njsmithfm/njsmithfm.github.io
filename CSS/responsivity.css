@@ -144,15 +144,16 @@
 */
 
 @media (max-width: 800px) {
-  blockquote {
-    display: none;
-  }
   .info {
     width: 200px;
   }
 
   .first-sentence {
     width: 100%;
+  }
+
+  blockquote {
+    font-size: 0.75rem;
   }
 }
 
@@ -175,6 +176,9 @@
     display: block;
     margin-top: 1rem;
   }
+  blockquote {
+    font-size: 0.75rem;
+  }
 }
 
 /* 
@@ -187,6 +191,9 @@
 @media (max-width: 400px) {
   h3.title {
     max-width: 100%;
+  }
+  blockquote {
+    font-size: 0.75rem;
   }
 
   /* Smaller spacing for very small screens */
