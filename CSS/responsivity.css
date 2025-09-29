@@ -9,10 +9,17 @@
   .thumb {
     width: 200px;
     height: 160px;
+    aspect-ratio: 4/3;
   }
   h3.title {
     font-size: 1.25rem;
     max-width: 100%;
+  }
+  .info {
+    width: 250px;
+  }
+  blockquote {
+    font-size: 0.75rem;
   }
 }
 
@@ -67,6 +74,7 @@
   .thumb {
     width: 160px;
     height: 115px;
+    aspect-ratio: 4/3;
   }
 
   /* Titles */
@@ -135,6 +143,9 @@
 @media (max-width: 800px) {
   blockquote {
     display: none;
+  }
+  .info {
+    width: 200px;
   }
 
   .first-sentence {
