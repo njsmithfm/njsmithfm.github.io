@@ -45,6 +45,10 @@
     margin-top: 3rem;
   }
 
+  .about-wrapper {
+    margin-top: 0;
+  }
+
   .feed {
     justify-content: center;
     margin-top: 0.5rem;
