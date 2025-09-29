@@ -41,6 +41,10 @@
     padding-top: 0;
   }
 
+  .content {
+    margin-top: 3rem;
+  }
+
   .feed {
     justify-content: center;
     margin-top: 0.5rem;
