@@ -43,7 +43,7 @@ nav {
 }
 
 .title h1 {
-  font-size: clamp(2.5rem, 8vw, 5rem);
+  font-size: clamp(2.5rem, 3rem, 4rem);
   font-weight: 900;
   letter-spacing: -0.02em;
   line-height: 1.1;
@@ -85,6 +85,11 @@ nav {
 }
 
 /* Text Sections */
+
+address {
+  margin-left: 2.5rem;
+  font-size: 0.75rem;
+}
 .text {
   max-width: 1200px;
   margin: 5% auto;
@@ -121,55 +126,6 @@ a {
 
 a:hover {
   color: #ffffff;
-}
-
-/* Sticky Scrolly Section */
-.scrolly-container {
-  display: flex;
-  min-height: 200vh;
-  margin: 5% 0;
-}
-
-.leftside {
-  background-color: black;
-  color: white;
-  width: 40%;
-  padding: 5% 3%;
-  position: relative;
-}
-
-.progressive {
-  opacity: 0;
-  margin-bottom: 150vh;
-  transition: opacity 0.8s ease;
-}
-
-.progressive.visible {
-  opacity: 1;
-}
-
-.progressive.end {
-  margin-bottom: 5vh;
-}
-
-.progressive h1 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-}
-
-.sticky {
-  position: sticky;
-  top: 20%;
-  width: 50%;
-  height: 60vh;
-  background-color: white;
-  border: 0.5rem solid black;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 8px;
-  overflow: hidden;
-  margin: 10%;
 }
 
 #mainTitle h1 {

@@ -19,70 +19,45 @@
     <style>
       #scrolly {
         position: relative;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        background-color: #d6f7ed;
-        padding: 1rem;
-      }
-
-      #scrolly > * {
-        -webkit-box-flex: 1;
-        -ms-flex: 1;
-        flex: 1;
+        padding: 20rem 0rem;
+        background-color: aliceblue;
+        box-shadow: 0px 0px 50px 50px aliceblue;
       }
 
       article {
         position: relative;
-        padding: 0 1rem;
-        max-width: 30rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        max-width: 20rem;
+        margin: 0 auto;
       }
 
       .sticky-thing {
         position: -webkit-sticky;
-        padding: 10px;
         position: sticky;
+        padding: 0 5px;
+        left: 0;
         width: 100%;
         margin: 0;
-        border: 5px solid #000000;
-        border-radius: 10px;
-        background-color: white;
-        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-        top: 12.5vh;
-        height: 75vh;
-        /* Center everything inside */
+        z-index: 0;
+        top: 10vh;
+        height: 40vh;
         display: flex;
         align-items: center;
         justify-content: center;
-        overflow: hidden;
-      }
-
-      .sticky-thing iframe {
-        width: 100%;
-        height: 100%;
-        border: 0;
-        opacity: 0; /* start invisible */
-        transition: opacity 0.6s ease; /* fade duration */
-      }
-
-      /* When the iframe has finished loading we add this class */
-      .sticky-thing iframe.is-visible {
-        opacity: 1; /* fade‑in */
+        overflow: hidden !important;
       }
 
       .step {
-        min-height: 75vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        opacity: 0;
-        transition: opacity 0.6s ease, transform 0.6s ease;
-        transform: translateY(20px);
-        padding: 2rem;
-        box-sizing: border-box;
+        margin: 5rem auto 2rem auto;
+        margin-bottom: 30rem;
+        color: rgba(0, 0, 0, 0.192);
+        background-color: rgba(255, 255, 255, 0.9);
+        border-radius: 15px;
+        z-index: 10;
+      }
+
+      .step p {
+        padding: 1.5rem;
+        font-size: 0.85rem;
       }
 
       .step:last-child {
@@ -92,18 +67,12 @@
       .step.is-active {
         opacity: 1;
         color: #000000;
+        z-index: 10;
         transform: translateY(0);
-      }
-
-      .step p {
-        display: contents;
-        text-align: left;
-        padding: 1rem;
-        font-size: 1.25rem;
-        line-height: 1.75rem;
+        box-shadow: 5px 5px 10px black;
       }
     </style>
-    <link rel="stylesheet" href="OvershootDayEssay/stylesheet.css" />
+    <link rel="stylesheet" href="OvershootDayEssay/stylesheetMobile.css" />
   </head>
 
   <body>
@@ -121,10 +90,6 @@
         <address>
           By <a href="https://njsmithfm.github.io" target="_blank">NJ Smith</a>
         </address>
-        <p style="font-style: italic; font-size: 0.75rem">
-          Note: this page is best viewed on desktop; it has not yet been adapted
-          for mobile.
-        </p>
       </div>
 
       <div class="text">
@@ -143,10 +108,10 @@
           those resources, within the year.
         </p>
 
-        <h2 style="max-width: 75%">
+        <h3 style="margin-bottom: 1.5rem">
           "Overshoot Day" is the date each year on which our consumption of
           resources surpasses Earth's generative budget for that year.
-        </h2>
+        </h3>
 
         <p>
           The data published through this research's
@@ -167,11 +132,22 @@
       </div>
 
       <section style="margin-top: 10rem; margin-bottom: 10rem" id="scrolly">
+        <div class="sticky-thing">
+          <iframe
+            id="graphic-frame"
+            width="100%"
+            height="100%"
+            frameborder="0"
+          ></iframe>
+        </div>
+
         <article>
           <div
             class="step"
             data-step="1"
             data-src="OvershootDayEssay/Datawrapper.html"
+            style="overflow: hidden;
+            object-fit: contain;"
           >
             <p>
               This map visualizes resource usage, by indicating how many Earths
@@ -182,7 +158,7 @@
           <div
             class="step"
             data-step="2"
-            data-src="OvershootDayEssay/OvershootScatterplot.html"
+            data-src="OvershootDayEssay/OvershootScatterplotMobile.html"
           >
             <p>
               This scatterplot reveals the relationship between a country's
@@ -194,10 +170,9 @@
             </p>
           </div>
           <div
-            style="display: inline-block"
             class="step"
             data-step="3"
-            data-src="OvershootDayEssay/EchartsBiocapacityOverTime.html"
+            data-src="OvershootDayEssay/EchartsBiocapacityOverTimeMobile.html"
           >
             <p>
               Earth's biocapacity is made up of different types of land or
@@ -220,8 +195,16 @@
           <div
             class="step"
             data-step="4"
-            data-src="OvershootDayEssay/Cartogram.html"
+            data-src="OvershootDayEssay/CartogramMobile.html"
           >
+            <p>
+              This cartogram displays the world countries reproportioned
+              according to their global hectares consumed per person for 2024.
+              Those in <strong id="red">red</strong> consumed most
+              (Qatar, Luxembourg for example) while those in
+              <strong id="green" green">green</strong> consumed the least, or
+              ended 2024 with a reserve rather than a deficit.
+            </p>
             <p>
               Earth Overshoot Day is a useful metric, offering a paradigm which
               centers us in relationship with Earth's material budget. By
@@ -241,28 +224,17 @@
           </div>
 
           <div
-            style="display: inline-block"
             class="step"
             data-step="5"
-            data-src="OvershootDayEssay/EcologicalFootprint.html"
+            style="padding: 15px"
+            data-src="OvershootDayEssay/EcologicalFootprintMobile.html"
           >
-            <h1 style="margin-bottom: 3rem">
+            <h1 style="margin-bottom: 1.5rem; line-height: 1.15">
               Globally, what did humanity demand of Earth in 2024?
             </h1>
-            <p style="max-width: 55%">
-              This is our collective ecological footprint for 2024
-            </p>
+            <p>This is our collective ecological footprint for 2024</p>
           </div>
         </article>
-
-        <div class="sticky-thing">
-          <iframe
-            id="graphic-frame"
-            width="100%"
-            height="100%"
-            frameborder="0"
-          ></iframe>
-        </div>
       </section>
 
       <section id="outro"></section>
@@ -371,7 +343,7 @@
         scroller
           .setup({
             step: "#scrolly article .step",
-            offset: 0.5,
+            offset: 0.75,
             debug: false,
           })
           .onStepEnter(handleStepEnter);
