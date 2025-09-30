@@ -19,45 +19,31 @@
     <style>
       #scrolly {
         position: relative;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        background-color: #d6f7ed;
+        background-color: #f3f3f3;
         padding: 1rem;
-      }
-
-      #scrolly > * {
-        -webkit-box-flex: 1;
-        -ms-flex: 1;
-        flex: 1;
       }
 
       article {
         position: relative;
-        padding: 0 1rem;
-        max-width: 30rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        padding: 0;
+        max-width: 20rem;
+        margin: 0 auto;
       }
 
       .sticky-thing {
         position: -webkit-sticky;
-        padding: 10px;
         position: sticky;
+        left: 0;
         width: 100%;
         margin: 0;
-        border: 5px solid #000000;
-        border-radius: 10px;
-        background-color: white;
-        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+        background-color: #8a8a8a;
+        z-index: 0;
         top: 12.5vh;
         height: 75vh;
         /* Center everything inside */
         display: flex;
         align-items: center;
         justify-content: center;
-        overflow: hidden;
       }
 
       .sticky-thing iframe {
@@ -74,15 +60,9 @@
       }
 
       .step {
-        min-height: 75vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        opacity: 0;
-        transition: opacity 0.6s ease, transform 0.6s ease;
-        transform: translateY(20px);
-        padding: 2rem;
-        box-sizing: border-box;
+        margin: 0 auto 2rem auto;
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.1);
       }
 
       .step:last-child {
@@ -95,7 +75,7 @@
         transform: translateY(0);
       }
 
-      .step p {
+      .step iframe {
         display: contents;
         text-align: left;
         padding: 1rem;
@@ -103,7 +83,7 @@
         line-height: 1.75rem;
       }
     </style>
-    <link rel="stylesheet" href="OvershootDayEssay/stylesheet.css" />
+    <link rel="stylesheet" href="OvershootDayEssay/stylesheetMobile.css" />
   </head>
 
   <body>

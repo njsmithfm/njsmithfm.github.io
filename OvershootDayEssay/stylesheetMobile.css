@@ -43,7 +43,7 @@ nav {
 }
 
 .title h1 {
-  font-size: clamp(2.5rem, 8vw, 5rem);
+  font-size: clamp(2.5rem, 3rem, 4rem);
   font-weight: 900;
   letter-spacing: -0.02em;
   line-height: 1.1;
