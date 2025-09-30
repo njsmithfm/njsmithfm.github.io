@@ -85,6 +85,11 @@ nav {
 }
 
 /* Text Sections */
+
+address {
+  margin-left: 2.5rem;
+  font-size: 0.75rem;
+}
 .text {
   max-width: 1200px;
   margin: 5% auto;
