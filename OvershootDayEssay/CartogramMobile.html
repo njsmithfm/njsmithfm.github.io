@@ -8,7 +8,7 @@
   "
 >
   <div
-    id="5f978cad-9a1a-40e4-86d3-3b2829561178"
+    id="636eda81-0dbd-4e32-c7a2-5a1363de6f47"
     style="
       font-family: 'Inter', sans-serif;
       position: absolute;
@@ -58,7 +58,6 @@
           '<strong style="font-size: large;">[Country]</strong><br/>Population est. [Population (millions)] million<br/>[Number of Earths required] Earths required per year<br/>[Total Ecological Footprint (Consumption)] Global hectares used per person',
         default_shape: "geo",
         layout: "map",
-        right_padding: 40,
         map_projection: "mercator",
         map_source: "default",
         default_border_color: "#000000",
@@ -70,7 +69,7 @@
         transparent_background: true,
         background_color: "#f4dad7",
         title:
-          '<span style="font-size: medium;">Map of Earth Proportional To</span><br/><span style="font-size: medium;">Country Ecological Footprint</span>',
+          '<span style="font-size: medium;">Countries Resized by Footprint</span>',
         tooltip_shape: "default",
         tooltip_animation: true,
         tooltip_shadow: false,
@@ -91,9 +90,15 @@
         map_color: "#ffffff",
         map_border_only_in_regions_with_data: true,
         map_shape_only_in_regions_with_data: false,
-        title_size: 14,
+        title_size: 12,
         title_align: "left",
         zoom: true,
+        left_padding: 0,
+        top_padding: 10,
+        bottom_padding: 5,
+        right_padding: 5,
+        view_height: 400,
+        view_width: 400,
       },
       grammar: [
         {
@@ -112,6 +117,8 @@
           middle_constant: 1,
           color_steps: 5,
           middle: "#ffb10a",
+          legend: false,
+          show_title: false,
         },
         { variable: "Country", property: "TOOLTIP" },
         { variable: "Population (millions)", property: "TOOLTIP" },
@@ -139,7 +146,7 @@
       compute: [],
     }).done(function () {
       new graphica.Chart(this).add(
-        "5f978cad-9a1a-40e4-86d3-3b2829561178",
+        "636eda81-0dbd-4e32-c7a2-5a1363de6f47",
         settings
       );
     });

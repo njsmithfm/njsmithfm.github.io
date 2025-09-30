@@ -131,6 +131,19 @@ a {
   color: rgba(0, 0, 0, 0.192);
 }
 
+.step strong {
+  font-weight: inherit;
+}
+.step.is-active #red {
+  font-weight: bolder;
+  color: red;
+}
+
+.step.is-active #green {
+  font-weight: bolder;
+  color: green;
+}
+
 .step.is-active a {
   color: #2196f3;
   text-decoration: underline;
