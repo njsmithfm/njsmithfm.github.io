@@ -48,7 +48,7 @@
 
     option = {
       title: {
-        text: 'Earth Biocapacity 1961-2024 (Global Hectares per Person)'
+        text: 'Earth Biocapacity 1961-2024 in Global Hectares per Person (gha)'
       },
       tooltip: {
         trigger: 'axis',
@@ -57,7 +57,9 @@
           label: {
             backgroundColor: '#ffffff'
           }
-        }
+        },
+    valueFormatter: 
+    (value) => value.toFixed(3) + ' gha'
       },
       textStyle: {
         fontFamily: 'sans-serif'
