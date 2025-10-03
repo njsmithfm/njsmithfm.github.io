@@ -133,6 +133,7 @@ a {
 .step strong {
   font-weight: inherit;
 }
+
 .step.is-active #red {
   font-weight: bolder;
   color: red;
