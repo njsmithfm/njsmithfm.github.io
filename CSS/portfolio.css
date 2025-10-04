@@ -130,6 +130,7 @@ a {
 .item-wrapper {
   display: flex;
   flex-direction: row;
+  width: 550px;
 }
 
 /* Thumbnail */
