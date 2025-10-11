@@ -170,9 +170,13 @@ blockquote {
   color: #666;
   font-style: italic;
   margin-left: 0.5rem;
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   margin-top: 0.5rem;
   max-width: 85%;
+}
+
+blockquote.blockquote-mobile {
+  display: none;
 }
 
 .sidebar a h1 {
