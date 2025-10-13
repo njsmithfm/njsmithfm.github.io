@@ -179,6 +179,10 @@ blockquote.blockquote-mobile {
   display: none;
 }
 
+h1{
+  line-height: 2rem
+}
+
 .sidebar a h1 {
   font-size: 40px;
   font-weight: 500;
