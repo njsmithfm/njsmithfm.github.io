@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="blog of things" />
+    <title>MAYDAY Magazine | NJ Smith</title>
+    <meta name="keywords" content="NJ Smith, information designer, portfolio" />
+    <meta name="author" content="NJ Smith" />
+    <link rel="icon" href="img/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="CSS/portfolio.css" />
+    <link rel="stylesheet" href="CSS/responsivity.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <aside class="sidebar left">
+        <a href="https://njsmithfm.github.io/"
+          ><h1 class="title">NJ Smith</h1></a
+        >
+      </aside>
+
+      <main class="about-content about-wrapper">
+        <div class="about-text">
+          <h1><a class="overshoot" href="EarthOvershoot.html" target="_blank">What Is Earth Overshoot Day?</a></h1>
+          <div
+          style="margin-top: 2rem; font-size: 0.875rem; font-style: italic"
+          class="about-text-list-items"
+        >
+          <strong>Technologies:</strong> Scrollama.js, Datawrapper, Scimago Graphica,
+          Apache Echarts, HTML & CSS
+        </div>
+          <p class="about-text-list-items" style="margin-top: 1.5rem">
+            This is a data-journalism explainer piece I developed while learning JavaScript scrollytelling, using Russell Samora's Scrollama.js library. (with the help of Jonathan Soma's great Scrollama tutorials)
+
+          <p class="about-text-list-items" style="margin-top: 1.5rem">
+           This project is a result of the "Future Fridays" bimonthly series hosted by London-based data studio Infogr8 in partnership with the Data Visualization Society. 
+          </p>
+
+
+      <a class="overshoot"
+      href="EarthOvershoot.html"
+      target="_blank"
+    >
+      <picture class="about-photo-mobile">
+        <source
+          srcset="video/Overshoot.gif"
+          media="(max-width: 600px)"
+        />
+        <img
+          src="video/Overshoot.gif"
+          alt="Overshoot essay scrolly progression"
+          style="border: 1px solid black; border-radius: 0px; margin-bottom: 1rem;"
+        /> </picture
+                ></a>
+      
+                <div class="about-photo" style="margin-top: 1.5rem;">
+                    <a class="overshoot"
+                      href="EarthOvershoot.html"
+                      target="_blank"
+                    >
+                      <picture>
+                        <source
+                          srcset="video/Overshoot.gif"
+                          media="(min-width: 601px)"
+                        />
+                        <img
+                          src="video/Overshoot.gif"
+                          alt="Overshoot essay scrolly progression"
+                          style="border: 1px solid black; "
+                        /> </picture
+                    ></a>
+                  </div>
+
+                
+                  <p class="about-text-list-items" style="margin-top: 1.5rem">
+                    I used a variety of interactive charting tools, from no-code to bespoke JavaScript, and the one I was most excited to try out was the Scimago Graphica app, developed by the SCImago data-research collective. 
+                    </p>
+
+                    <p class="about-text-list-items" style="margin-top: 1.5rem">
+                        <a class="overshoot" href="EarthOvershoot.html" target="_blank">View the essay here.</a>
+                        </p>
+          
+        </div>
+
+       
+       
+      </main>
+
+      <aside class="sidebar right">
+        <nav class="nav">
+          <ul>
+            <li><a href="About.html">About</a></li>
+            <li><a href="mailto:njsmith.fm@gmail.com">Contact</a></li>
+            <li><a href="index.html">Home</a></li>
+          </ul>
+        </nav>
+
+        <div class="footer_socials">
+          <a href="mailto:njsmith.fm@gmail.com" target="_blank"
+            ><img src="icons/email.svg" alt="email CTA icon"
+          /></a>
+          <a href="https://github.com/njsmithfm" target="_blank"
+            ><img src="icons/github.svg" alt="github logo icon"
+          /></a>
+          <a href="https://www.linkedin.com/in/njsmithfm" target="_blank"
+            ><img src="icons/linkedin.svg" alt="linkedin logo icon"
+          /></a>
+        </div>
+      </aside>
+    </div>
+  </body>
+</html>
+
+
+<script>
+    // update Overshoot href based on screen size
+    const overshootLinks    = document.querySelectorAll(".overshoot");
+  
+    function updateLinkHref() {
+    const windowWidth = window.innerWidth;
+    const newHref = windowWidth < 1000
+          ? 'EarthOvershootMobile.html'
+          : 'EarthOvershoot.html';
+
+    // Loop over the NodeList and set the attribute
+    overshootLinks.forEach(link => link.setAttribute('href', newHref));
+  }
+  
+    updateLinkHref();
+    window.addEventListener("resize", updateLinkHref);
+  </script>
+  

@@ -78,7 +78,7 @@
             </article>
           </a>
 
-          <a href="EarthOvershoot.html" target="_blank">
+          <a href="EarthOvershootLander.html" target="_blank">
             <article class="feed-item">
               <div class="item-wrapper">
                 <img
@@ -352,20 +352,3 @@
   </body>
 </html>
 
-<script>
-  // update Overshoot href based on screen size
-  const myLink = document.getElementById("Overshoot");
-
-  function updateLinkHref() {
-    const windowWidth = window.innerWidth;
-    //  breakpoint for mobile
-    if (windowWidth < 1000) {
-      myLink.setAttribute("href", "EarthOvershootMobile.html");
-    } else {
-      myLink.setAttribute("href", "EarthOvershoot.html");
-    }
-  }
-
-  updateLinkHref();
-  window.addEventListener("resize", updateLinkHref);
-</script>
