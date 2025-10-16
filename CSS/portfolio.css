@@ -1,6 +1,8 @@
 /* portfolio.css - Updated sections only */
 @import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap");
+
 * {
   font-family: "Public Sans", Arial, Helvetica, sans-serif;
   font-weight: 400;
@@ -180,8 +182,9 @@ blockquote.blockquote-mobile {
 }
 
 .sidebar a h1 {
+  font-family: "Libre Franklin", sans-serif;
   font-size: 40px;
-  font-weight: 500;
+  font-weight: 600;
   text-decoration: none;
   color: transparent;
   background: linear-gradient(45deg, #d400ff, #0473ce, #a4ff3b);
