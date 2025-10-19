@@ -144,7 +144,7 @@
     gap: 0.75rem;
   }
 
-  .sidebar.right .footer_socials img {
+  .sidebar.right .footer_socials svg {
     margin: 0; /* Remove left margin, use gap instead */
   }
 }
@@ -203,14 +203,5 @@
   .sidebar.right .nav ul {
     gap: 1rem;
     font-size: 0.9rem;
-  }
-
-  .mobile_socials {
-    gap: 0.5rem;
-  }
-
-  .mobile_socials img {
-    width: 1.25rem;
-    height: 1.25rem;
   }
 }

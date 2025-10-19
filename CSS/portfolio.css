@@ -40,10 +40,15 @@ h3.title {
   margin-top: 2rem;
 }
 
-div.footer_socials img {
+div.footer_socials svg {
+  fill: #000;
   margin-left: 10px;
   width: 1.5rem;
   height: 1.5rem;
+}
+
+div.footer_socials svg:hover {
+  fill: rgb(255, 0, 212);
 }
 
 /* Sticky positioning – stays visible while scrolling */
@@ -181,8 +186,8 @@ blockquote.blockquote-mobile {
   display: none;
 }
 
-h1{
-  line-height: 2rem
+h1 {
+  line-height: 2rem;
 }
 
 .sidebar a h1 {
