@@ -1,9 +1,15 @@
+---
+permalink: HAMradio.html
+---
+
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="NJ Smith information design portfolio" />
-    <title>NJ Smith</title>
+    <meta name="description" content="blog of things" />
+    <title>HAM Radio App | NJ Smith</title>
     <meta name="keywords" content="NJ Smith, information designer, portfolio" />
     <meta name="author" content="NJ Smith" />
     <link rel="icon" href="img/favicon.png" type="image/x-icon" />
@@ -13,48 +19,61 @@
   </head>
   <body>
     <div class="wrapper">
-      <!-- Left sidebar -->
       <aside class="sidebar left">
-        <a href="https://njsmithfm.github.io/">
-          <h1 class="title">NJ Smith</h1></a
+        <a href="https://njsmithfm.github.io/"
+          ><h1 class="title">NJ Smith</h1></a
         >
-        <div>
-          <p
-            style="
-              font-size: 0.85rem;
-              font-style: italic;
-              margin-top: 1rem;
-              margin-left: 0.25rem;
-            "
-          >
-            Information Designer<br />& Data Journalist
-          </p>
-        </div>
       </aside>
 
-{# article template from Flowers of Memory posts.njk#}
-       <article>
-        <main class="content">
-          <div class="article-text">
-            <div class="article-title">
-              <h2>
-                {%- if title_img -%}<img
-                  src="{{ title_img }}"
-                  alt="{{ title }}"
-                />
-                {%- else -%}
-                {{ title }}{%- endif -%}
-              </h2>
-              <time class="date">{{ page.date | readableDate }}</time>
-            </div>
+      <main class="about-content about-wrapper">
+        <div class="about-text">
+          <h1>HAM Radio App</h1>
 
-            <div class="first-sentence">{{ first_sentence }}</div>
-            {{ content | safe }}
-          </div>
-        </main>
-      </article>
+          <p class="about-text-list-items" style="margin-top: 1.5rem">
+           I've wanted to learn Svelte for a while, and to do something with physical computing on Raspberry Pi. I realized I could involve my dad and my little brother in this too, so they share in the credit on this project. (Consider them my henchmen.)
+          </p>
 
-       <!-- Right sidebar -->
+          <p class="about-text-list-items" style="margin-top: 1.5rem">
+           My dad is a licensed HAM radio operator, but uses a wheelchair, so it's a challenge for him to get all his broadcasting equipment out and operate it. So I thought, maybe the process would be even so slightly easier if he could know right away in the morning which days are most suitable for making a day out of it, and taking all his stuff to the park, which is what he likes to do.
+          </p>
+
+          <p class="about-text-list-items" style="margin-top: 1.5rem">
+          So I set out to make a dashboard for him that'll let him know when it's a good day for operating, based on HAM radio bandwidths availability, solar activity, and weather forecasts in Southeast Minnesota. I made an interface using Svelte together with D3, and hosted the project on a Raspberry Pi which lives in his apartment, continually deployed on a local server, and which is configured with some LED lights that turn green when conditions are favorable for broadcasting. 
+          </p>
+
+      <picture class="about-photo-mobile">
+        <source
+          srcset="img/ThisBodyIHaveTriedToWrite.png"
+          media="(max-width: 600px)"
+        />
+        <img
+          src="img/ThisBodyIHaveTriedToWrite.png"
+          alt="Chapbook cover"
+          style="border-radius: 0px; margin-bottom: 1rem;"
+        /> </picture
+    >
+      
+          
+
+          
+        </div>
+
+        <div class="about-photo">
+
+            <picture>
+              <source
+                srcset="img/HAMradioPrototype.jpg"
+                media="(min-width: 601px)"
+              />
+              <img
+                src="img/HAMradioPrototype.jpg"
+                alt="HAM Radio Prototype"
+              /> </picture
+          ></a>
+        </div>
+        
+      </main>
+
       <aside class="sidebar right">
         <nav class="nav">
           <ul>
@@ -64,7 +83,6 @@
           </ul>
         </nav>
 
-        <!-- Social icons - single container for both desktop and mobile -->
         <div class="footer_socials">
           <a href="mailto:njsmith.fm@gmail.com" target="_blank">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
@@ -89,4 +107,3 @@
     </div>
   </body>
 </html>
-
