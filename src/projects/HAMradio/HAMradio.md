@@ -1,6 +1,6 @@
 ---
 layout: about.njk
-# title: HAM Radio Bandwidth App
+title: Ragchewer's Almanac
 permalink: projects/HAMradio/HAMradio.html
 thumb: projects/HAMradio/thumb/LCARSthumb.jpg
 ---
@@ -8,7 +8,7 @@ thumb: projects/HAMradio/thumb/LCARSthumb.jpg
 
 
         <div class="about-text">
-          <h1>HAM Radio App</h1>
+          <!-- <h1>HAM Radio App</h1> -->
 
           <p class="about-text-list-items" style="margin-top: 1.5rem">
            I've wanted to learn Svelte for a while, and to do something with physical computing on Raspberry Pi. I realized I could involve my dad and my little brother in this too, so they share in the credit on this project. (Consider them my henchmen.)
