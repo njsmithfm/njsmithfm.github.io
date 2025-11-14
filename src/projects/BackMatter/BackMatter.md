@@ -1,4 +1,6 @@
 ---
+
+layout: about.njk
 permalink: projects/BackMatter/BackMatter.html
 title: Back Matter Magazine
 thumb: projects/BackMatter/thumb/BackMatterPartyFlyerThumbnail.png
@@ -48,10 +50,10 @@ thumb: projects/BackMatter/thumb/BackMatterPartyFlyerThumbnail.png
             />
           </picture>
 
-          <!-- <div class="about-photo-mobile">
+          <div class="about-photo-mobile">
             <video controls width="200">
               <source
-                src="video/BackMatterFlyerAnimated.mp4"
+                src="mp4/BackMatterFlyerAnimated.mp4"
                 type="video/mp4"
               />
             </video>
@@ -65,11 +67,11 @@ thumb: projects/BackMatter/thumb/BackMatterPartyFlyerThumbnail.png
               width="200"
             >
               <source
-                src="video/BackMatterFlyerAnimated.mp4"
+                src="mp4/BackMatterFlyerAnimated.mp4"
                 type="video/mp4"
               />
             </video>
-          </div> -->
+          </div> 
         </div>
 
         <div style="width: 100%" class="about-photo">

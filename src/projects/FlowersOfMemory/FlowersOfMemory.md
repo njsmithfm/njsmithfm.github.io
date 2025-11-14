@@ -1,4 +1,5 @@
 ---
+layout: projects.njk
 # title: Flowers of Memory
 permalink: projects/FlowersOfmemory/FlowersOfMemory.html
 thumb: FlowersOfMemory/thumb/FMindex.jpg

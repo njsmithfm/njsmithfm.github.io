@@ -1,4 +1,5 @@
 ---
+layout: projects.njk
 title: MTA Accessibility
 permalink: projects/MTAaccessibility/MTAaccessibility.html
 thumb: projects/MTAaccessibility/thumb/Datawrapper-ADA-Subway.png

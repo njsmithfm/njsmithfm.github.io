@@ -1,7 +1,9 @@
 ---
+layout: projects.njk
 title: MAYADAY Magazine
 permalink: projects/MAYDAY/MAYDAY.html
 thumb: projects/MAYDAY/thumb/ThisBodyIHaveTriedToWrite.png
+href: https://maydaymagazine.com
 ---
         <div class="about-text">
           <h1>MAYDAY Magazine</h1>

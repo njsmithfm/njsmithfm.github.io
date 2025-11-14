@@ -1,4 +1,6 @@
 ---
+
+layout: projects.njk
 permalink: projects/EarthOvershoot/EarthOvershoot.html
 # title: What Is Earth Overshoot Day? 
 thumb: projects/BackMatter/thumb/BackMatterPartyFlyerThumbnail.png
@@ -26,11 +28,11 @@ thumb: projects/BackMatter/thumb/BackMatterPartyFlyerThumbnail.png
     >
       <picture class="about-photo-mobile">
         <source
-          srcset="video/Overshoot.gif"
+          srcset="img/Overshoot.gif"
           media="(max-width: 600px)"
         />
         <img
-          src="video/Overshoot.gif"
+          src="img/Overshoot.gif"
           alt="Overshoot essay scrolly progression"
           style="border: 1px solid black; border-radius: 0px; margin-bottom: 1rem;"
         /> </picture
@@ -43,11 +45,11 @@ thumb: projects/BackMatter/thumb/BackMatterPartyFlyerThumbnail.png
                     >
                       <picture>
                         <source
-                          srcset="video/Overshoot.gif"
+                          srcset="img/Overshoot.gif"
                           media="(min-width: 601px)"
                         />
                         <img
-                          src="video/Overshoot.gif"
+                          src="img/Overshoot.gif"
                           alt="Overshoot essay scrolly progression"
                           style="border: 1px solid black; "
                         /> </picture

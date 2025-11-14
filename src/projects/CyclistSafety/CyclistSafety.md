@@ -1,7 +1,10 @@
 ---
+
+layout: projects.njk
 title: Cyclist Safety in NYC
 permalink: projects/CyclistSafety/CyclistSafety.html
 thumb: projects/CyclistSafety/thumb/CrashMapDashboard.png
+href: https://nycbikecrashes.pythonanywhere.com
 
 ---
 
@@ -9,9 +12,7 @@ thumb: projects/CyclistSafety/thumb/CrashMapDashboard.png
 
         <div class="about-text">
           <h1>
-            <a href="https://nycbikecrashes.pythonanywhere.com/" target="_blank"
-              >Cyclist Safety in NYC</a
-            >
+         
           </h1>
           <div
             style="margin-top: 2rem; font-size: 0.875rem; font-style: italic"
@@ -36,11 +37,11 @@ thumb: projects/CyclistSafety/thumb/CrashMapDashboard.png
             >
               <picture class="about-photo-mobile">
                 <source
-                  srcset="img/CrashMapDashboard.png"
+                  srcset="img/CyclistSafety.gif"
                   media="(max-width: 600px)"
                 />
                 <img
-                  src="video/CyclistSafety.gif"
+                  src="img/CyclistSafety.gif"
                   alt="Cyclist Safety dashboard"
                   style="
                     border: 1px solid black;
@@ -58,11 +59,11 @@ thumb: projects/CyclistSafety/thumb/CrashMapDashboard.png
             >
               <picture>
                 <source
-                  srcset="video/CyclistSafety.gif"
+                  srcset="img/CyclistSafety.gif"
                   media="(min-width: 601px)"
                 />
                 <img
-                  src="video/CyclistSafety.gif"
+                  src="img/CyclistSafety.gif"
                   alt="Cyclist Safety dashboard"
                   style="border: 1px solid black"
                 /> </picture

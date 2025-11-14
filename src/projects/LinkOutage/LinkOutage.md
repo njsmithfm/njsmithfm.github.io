@@ -1,4 +1,6 @@
 ---
+
+layout: projects.njk
 permalink: projects/LinkOutage/LinkOutage.html
 title: Link Outage
 

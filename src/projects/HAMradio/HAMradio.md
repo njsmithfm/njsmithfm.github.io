@@ -1,4 +1,5 @@
 ---
+layout: about.njk
 # title: HAM Radio Bandwidth App
 permalink: projects/HAMradio/HAMradio.html
 thumb: projects/HAMradio/thumb/LCARSthumb.jpg
