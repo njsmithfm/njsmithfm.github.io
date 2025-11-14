@@ -1,8 +1,8 @@
 module.exports = function (eleventyConfig) {
     const assets = [
       "src/CSS",
-      "src/posts/**/img/*",
-      "src/posts/**/thumb",
+      "src/projects/**/img/*",
+      "src/projects/**/thumb",
       "src/icons",
     ];
     assets.forEach((path) => {
@@ -10,7 +10,7 @@ module.exports = function (eleventyConfig) {
       eleventyConfig.addWatchTarget(path);
     });
   
-    eleventyConfig.addWatchTarget("./src/posts/**/*.md");
+    eleventyConfig.addWatchTarget("./src/projects/**/*.md");
   
     // Filters
     eleventyConfig.addFilter("readableDate", (date) =>
@@ -22,9 +22,9 @@ module.exports = function (eleventyConfig) {
     );
   
     // Collections
-    eleventyConfig.addCollection("posts", (collectionAPI) =>
+    eleventyConfig.addCollection("projects", (collectionAPI) =>
       collectionAPI
-        .getFilteredByGlob("src/posts/**/*.md")
+        .getFilteredByGlob("src/projects/**/*.md")
         .sort((a, b) => b.date - a.date)
     );
   
