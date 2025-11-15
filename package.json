@@ -4,7 +4,8 @@
   "description": "portfolio website for NJ Smith, Information Designer and Data Journalist",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "eleventy --serve",
+    "build": "eleventy"
   },
   "keywords": [],
   "author": "",

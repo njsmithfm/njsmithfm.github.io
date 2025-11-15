@@ -1,0 +1,43 @@
+---
+leftside: leftside.njk
+rightside: rightside.njk
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="blog of things" />
+    <title>About NJ Smith</title>
+    <meta name="keywords" content="NJ Smith, information designer, portfolio" />
+    <meta name="author" content="NJ Smith" />
+    <link rel="icon" href="img/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="../../CSS/portfolio.css" />
+    <link rel="stylesheet" href="../../CSS/responsivity.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="wrapper">
+   
+{% include leftside %}
+
+
+
+          <div class="article-text">
+        
+            <div class="article-title about-text">
+              <h1>    <a href="{{ href }}" target="_blank">
+                {{ title }}
+                </a>
+              </h1> 
+            </div>
+<p class="about-text-list-items" style="margin-top: 1.5rem">
+            {{ content | safe }}
+         
+     
+{% include rightside %}
+
+
+  </div>
+  </body>
+</html>

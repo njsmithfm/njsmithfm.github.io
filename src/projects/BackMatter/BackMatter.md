@@ -1,0 +1,116 @@
+---
+
+layout: about.njk
+permalink: projects/BackMatter/BackMatter.html
+title: Back Matter Magazine
+thumb: projects/BackMatter/thumb/BackMatterPartyFlyerThumbnail.png
+---
+
+        <div class="about-text">
+         
+          <div
+            style="margin-top: 2rem; font-size: 0.875rem; font-style: italic"
+            class="about-text-list-items"
+          >
+            <strong style="display: inline-block">Technologies:</strong>
+            InDesign, Premiere Pro, After Effects, Photoshop, Pro Tools,
+            Airtable
+          </div>
+          <p class="about-text-list-items" style="margin-top: 1.5rem">
+            <i>Back Matter</i> magazine is the student publication of the
+            Creative Publishing and Critical Journalism MA program at The New
+            School For Social Research. I was one of two Print and Web
+            Designers, and created 4 feature spreads for the print issue, and
+            produced much of our digital content as well.
+          </p>
+
+          <p
+            class="about-text-list-items"
+            style="margin-top: 1.5rem; margin-bottom: 1.5rem"
+          >
+            Being student work, I readily experimented with the technologies
+            available to me at the time, and created some promo materials on my
+            own, including a poster which I later animated while learning After
+            Effects. Additionally, I "recruited" my dad and brother into
+            participating in a social media commercial I made for our Spring
+            2023 issue launch party in SoHo.
+            <!-- Thanks guys, you're both great -->
+            <!-- sports. -->
+          </p>
+
+          <picture class="about-photo-mobile">
+            <source
+              srcset="img/BackMatterPartyFlyer.png"
+              media="(max-width: 600px)"
+            />
+            <img
+              src="img/BackMatterPartyFlyer.png"
+              alt="still from Link Outage"
+              style="border-radius: 0"
+            />
+          </picture>
+
+          <div class="about-photo-mobile">
+            <video controls width="200">
+              <source
+                src="mp4/BackMatterFlyerAnimated.mp4"
+                type="video/mp4"
+              />
+            </video>
+          </div>
+
+          <div style="margin: 1rem 1rem" class="about-photo">
+            <video
+              controls
+              disablepictureinpicture
+              controlslist="nodownload noremoteplayback"
+              width="200"
+            >
+              <source
+                src="mp4/BackMatterFlyerAnimated.mp4"
+                type="video/mp4"
+              />
+            </video>
+          </div> 
+        </div>
+
+        <div style="width: 100%" class="about-photo">
+          <picture>
+            <source
+              srcset="img/BackMatterPartyFlyer.png"
+              media="min-width: 301px"
+            />
+            <img
+              src="img/BackMatterPartyFlyer.png"
+              style="max-width: 300px"
+              alt="Back Matter 2023 launch flyer"
+            />
+          </picture>
+        </div>
+
+        <iframe
+          style="border: 1px solid #777"
+          src="https://indd.adobe.com/embed/3525ac44-0737-4c08-a11d-d3eb72a8040c?startpage=1&allowFullscreen=true"
+          width="100%"
+          height="30%"
+          frameborder="0"
+          allowfullscreen=""
+        ></iframe>
+        <iframe
+          style="border: 1px solid #777"
+          src="https://indd.adobe.com/embed/84887a01-51d1-438c-a8f1-25853f18e310?startpage=1&allowFullscreen=true"
+          width="100%"
+          height="30%"
+          frameborder="0"
+          allowfullscreen=""
+        ></iframe>
+
+        <iframe
+          style="border: 1px solid #777"
+          src="https://indd.adobe.com/embed/d4e47e6b-7a2d-46aa-bf9c-36a4f4c4a411?startpage=1&allowFullscreen=true"
+          width="100%"
+          height="30%"
+          frameborder="0"
+          allowfullscreen=""
+        ></iframe>
+     
